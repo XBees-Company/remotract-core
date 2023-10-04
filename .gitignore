@@ -1,8 +1,6 @@
 # Folders
 
-/wp-content/themes
-/wp-content/plugins
-
+/wp-content/themes/remotract
 
 # Configuration
 /wp-config.php
