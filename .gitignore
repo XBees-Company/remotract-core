@@ -12,6 +12,9 @@
 /.htaccess
 /htaccess
 
+#sftp
+.vscode/sftp.json
+
 # images files
 /wp-content/uploads/**/*.jpg
 /wp-content/uploads/**/*.JPEG
@@ -59,6 +62,3 @@
 /wp-content/uploads**/*.3g2 
 /wp-content/uploads**/*.3GPP
 /wp-content/uploads**/*.3GPP2
-
-
- 
