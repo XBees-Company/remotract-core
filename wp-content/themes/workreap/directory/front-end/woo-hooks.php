@@ -881,7 +881,8 @@ if (!function_exists('workreap_update_pakage_data')) {
 			
 			$fw_options             = fw_get_db_post_option($profile_id);
 			$fw_options['featured_post'] = true;
-			$fw_options['featured_expiry'] = $featured_profile_date;
+			$fw_options['featured_expiry'] 		= date('Y-m-d',strtotime($featured_profile_date));
+			$fw_options['_featured_timestamp']  = strtotime($featured_profile_date);
 			
 			fw_set_db_post_option($profile_id, null, $fw_options);
 

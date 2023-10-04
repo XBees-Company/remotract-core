@@ -30,6 +30,7 @@ if( apply_filters('workreap_system_access','job_base') === true ){
 	$job_faq_option		= '';
 	if (function_exists('fw_get_db_post_option')) {
 		$proposal_page = fw_get_db_settings_option('dir_proposal_page');
+		$remove_english_level = fw_get_db_settings_option('remove_english_level');
 		$hide_proposal_on_project = fw_get_db_settings_option('hide_proposal_on_project');
 		$expiry_date   		= fw_get_db_post_option($post->ID, 'expiry_date', true);
 		$deadline_date   	= fw_get_db_post_option($post->ID, 'deadline', true);
@@ -46,6 +47,8 @@ if( apply_filters('workreap_system_access','job_base') === true ){
 	
 	$expiry_date	  = !empty($expiry_date) ? workreap_date_format_fix($expiry_date) : '';
 	$deadline_date	  = !empty($deadline_date) ? workreap_date_format_fix($deadline_date) : '';
+
+	$remove_english_level	= !empty($remove_english_level) ? $remove_english_level : 'no'; 
 
 	$proposal_page_id = !empty( $proposal_page[0] ) ? $proposal_page[0] : '';
 	$submit_proposal  = !empty( $proposal_page_id ) ? get_the_permalink( $proposal_page_id ) : '';		
@@ -197,7 +200,7 @@ if( apply_filters('workreap_system_access','job_base') === true ){
 										</div>
 									</div>	
 								<?php }?>
-								<?php if(!empty($english_level[$db_english_level])){?>
+								<?php if(!empty($english_level[$db_english_level]) && !empty($remove_english_level) && $remove_english_level == 'no'){?>
 								<div class="wt-proposalsrcontent english-level-ico">
 									<span class="wt-proposalsicon"><i class="fa fa-angle-double-down"></i><i class="fa fa-language"></i></span>
 									<div class="wt-title">

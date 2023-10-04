@@ -52,7 +52,7 @@ if( !empty( $project_id ) && get_post_type( $project_id ) == 'projects' ){
 	
 	$proposed_cost_text		= esc_html__('Your proposed amount', 'workreap');
 	$employer_proposed_text	= esc_html__('Employer’s proposed amount', 'workreap');
-	$after_deduction_text	= sprintf(__('Amount, You’ll receive after <strong>%s</strong> service fee deduction', 'workreap'),$blog_name);
+	$after_deduction_text	= esc_html__('Amount, You’ll receive after service fee deduction', 'workreap');
 	$amount_text			= esc_html__('Enter your proposal amount','workreap');
 	$proposed_cost_text		= esc_html__('Your proposed amount', 'workreap');
 	
@@ -64,7 +64,7 @@ if( !empty( $project_id ) && get_post_type( $project_id ) == 'projects' ){
 		$proposed_cost_text		= esc_html__('Your proposed hourly rate', 'workreap');
 		$amount_text			= esc_html__('Enter your per hour rate','workreap');
 		$employer_proposed_text	= esc_html__('Employer’s proposed hours and hourly rate', 'workreap');
-		$after_deduction_text	= sprintf(__('Hourly price, You’ll receive after <strong>%s</strong> service fee deduction', 'workreap'),$blog_name);
+		$after_deduction_text	= esc_html__('Hourly price, You’ll receive after service fee deduction', 'workreap');
 	}
 	
 	$project_price		= workreap_project_price($project_id);

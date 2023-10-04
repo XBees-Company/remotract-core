@@ -20,7 +20,7 @@ if( !class_exists( 'WorkreapGlobalSettings' ) ) {
 
 	abstract class WorkreapGlobalSettings{
 		const PluginName 		= "Workreap Core";
-		const PluginVersion 	 = '2.6.9';
+		const PluginVersion 	 = '2.7.0';
 		
 		 /**
 		 * Getter for Plugin Version

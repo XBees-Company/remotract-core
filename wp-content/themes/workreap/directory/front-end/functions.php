@@ -2052,7 +2052,6 @@ if ( ! function_exists( 'workreap_get_dashboard_menu' ) ) {
 		return $menu_list;
 	}
 }
-
 /**
  * Get freelancer banner
  *

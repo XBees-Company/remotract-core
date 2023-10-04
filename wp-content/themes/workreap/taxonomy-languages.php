@@ -77,7 +77,7 @@ if( function_exists('fw_get_db_settings_option')  ){
 										'workreap_freelancer_avatar_fallback', workreap_get_freelancer_avatar(array('width' => 100, 'height' => 100), $post->ID), array('width' => 100, 'height' => 100) 
 									);
 
-									$class	= apply_filters('workreap_featured_freelancer_tag',$author_id,'yes');
+									$class	= apply_filters('workreap_featured_freelancer_tag_filter',$author_id,'yes');
 									$class	= !empty($class) ? $class : '';
 									?>
 									<div class="wt-userlistinghold <?php echo esc_attr($class);?>">

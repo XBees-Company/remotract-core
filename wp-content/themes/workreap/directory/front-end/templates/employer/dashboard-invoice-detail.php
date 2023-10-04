@@ -142,8 +142,6 @@ if(!empty($payment_type) && $payment_type === 'subscription'){
 	$payment_type_title	= esc_html__('Project title:', 'workreap');
 }
 
-
-
 ?>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 float-right">
 	<div class="wt-dashboardbox wt-dashboardinvocies">

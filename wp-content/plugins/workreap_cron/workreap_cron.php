@@ -15,7 +15,7 @@
  * Plugin Name:       Workreap Cron
  * Plugin URI:        https://themeforest.net/user/amentotech/portfolio
  * Description:       This plugin is used for creating cron jobs for Workreap WordPress Theme
- * Version:           2.6.9
+ * Version:           2.7.0
  * Author:            Amentotech
  * Author URI:        https://themeforest.net/user/amentotech
  * Text Domain:       workreap_cron

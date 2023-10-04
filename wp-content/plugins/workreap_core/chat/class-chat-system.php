@@ -609,7 +609,13 @@ if (!class_exists('ChatSystem')) {
 			}
 			
             $json = array();
-            $senderID 		= !empty( $current_user->ID ) ? intval( $current_user->ID ) : '';
+            if( is_admin() ){
+                $current_id 	= !empty( $_POST['current_id'] ) ? intval( $_POST['current_id'] ) : '';
+                $senderID 		= !empty( $current_id ) ? intval( $current_id ) : intval( $current_user->ID );
+            }else{
+                $senderID 		= !empty( $current_user->ID ) ? intval( $current_user->ID ) : intval( $current_user->ID );
+            }
+            
             $receiverID 	= !empty( $_POST['user_id'] ) ? intval( $_POST['user_id'] ) : '';
             $lastMsgId 		= !empty( $_POST['msg_id'] ) ? intval( $_POST['msg_id'] ) : '';
 			$thread_page 		= !empty( $_POST['thread_page'] ) ? intval( $_POST['thread_page'] ) : 0;
@@ -998,7 +1004,7 @@ if (!class_exists('ChatSystem')) {
 				$receiver_chat_notify = fw_get_db_settings_option('receiver_chat_notify');
 			}
 
-			if (class_exists('Workreap_Email_helper') && $receiver_chat_notify === 'enable') {
+			if (class_exists('Workreap_Email_helper') && $receiver_chat_notify == 'enable') {
 				if (class_exists('WorkreapRecChatNotification')) {
 					$email_helper = new WorkreapRecChatNotification();
 					$emailData 	  = array();

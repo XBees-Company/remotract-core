@@ -1420,6 +1420,7 @@ if (!function_exists('workreap_is_feature_allowed')) {
 if (!function_exists('workreap_show_packages_if_expired')) {
 
     function workreap_show_packages_if_expired($user_identity) {
+		$show_packages_if 	= '';
 		if ( function_exists( 'fw_get_db_settings_option' ) ) {
 			$show_packages_if 	= fw_get_db_settings_option( 'show_packages_if', $default_value = null );
 		} 
@@ -2368,31 +2369,49 @@ if( !function_exists(  'workreap_featured_freelancer_tag' ) ) {
 		
 		$featured_id	= !empty($featured_id) ? intval($featured_id) : '';
 		$featured_timestamp		= get_post_meta( $linked_profile,'_featured_timestamp',true );
-		if( !empty( $featured_timestamp ) ) {
-			if( $print_class === 'yes' ){return 'wt-featured';} 
-			if( empty( $featured_id ) ){ return 'wt-featured';}
-			
-			$term	= get_term( $featured_id );
-			if( !empty($term) ) {
-				ob_start();
-				$badge_icon  = fw_get_db_term_option($term->term_id, 'badge_cat', 'badge_icon');
-				$badge_color = fw_get_db_term_option($term->term_id, 'badge_cat', 'badge_color');
 
-				if( !empty( $badge_icon['url'] ) ){
-					$color = !empty( $badge_color ) ? $badge_color : '#ff5851';
-				?>
-				<span class="wt-featuredtag" style="border-top:40px solid <?php echo esc_attr($color);?>">
-					<img src="<?php echo esc_url($badge_icon['url']);?>" alt="<?php echo esc_attr($term->name);?>" data-tipso="<?php echo esc_attr($term->name);?>" class="template-content tipso_style wt-tipso">
-				</span>
-				<?php }
+		$term	= get_term( $featured_id );
+		if( !empty($term->term_id) ) {
+			ob_start();
+			$badge_icon  = fw_get_db_term_option($term->term_id, 'badge_cat', 'badge_icon');
+			$badge_color = fw_get_db_term_option($term->term_id, 'badge_cat', 'badge_color');
 
-				echo ob_get_clean();
-			}
+			if( !empty( $badge_icon['url'] ) ){
+				$color = !empty( $badge_color ) ? $badge_color : '#ff5851';
+			?>
+			<span class="wt-featuredtag" style="border-top:40px solid <?php echo esc_attr($color);?>">
+				<img src="<?php echo esc_url($badge_icon['url']);?>" alt="<?php echo esc_attr($term->name);?>" data-tipso="<?php echo esc_attr($term->name);?>" class="template-content tipso_style wt-tipso">
+			</span>
+			<?php }
+
+			echo ob_get_clean();
 		}
+		
 	}
 	
 	add_action( 'workreap_featured_freelancer_tag', 'workreap_featured_freelancer_tag',10,2 );
-	add_filter( 'workreap_featured_freelancer_tag', 'workreap_featured_freelancer_tag',10,2 );
+}
+
+/**
+ * user freelancer featured profile tag
+ *
+ * @throws error
+ * @author Amentotech <theamentotech@gmail.com>
+ * @return 
+ */
+if( !function_exists(  'workreap_featured_freelancer_tag_filter' ) ) {
+	function workreap_featured_freelancer_tag_filter($user_id='',$print_class='no'){
+		$linked_profile	= workreap_get_linked_profile_id($user_id);
+		$featured_id	= workreap_is_feature_value( 'wt_badget',$user_id );
+		
+		$featured_id	= !empty($featured_id) ? intval($featured_id) : '';
+		$featured_timestamp		= get_post_meta( $linked_profile,'_featured_timestamp',true );
+		if( !empty( $featured_timestamp ) ) {
+			if( $print_class === 'yes' ){return 'wt-featured';} 
+			if( empty( $featured_id ) ){ return 'wt-featured';}
+		}
+	}
+	add_filter( 'workreap_featured_freelancer_tag_filter', 'workreap_featured_freelancer_tag_filter',10,2 );
 }
 
 

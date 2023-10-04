@@ -3713,7 +3713,7 @@ if( !function_exists( 'workreap_js_social_login') ){
 			$user_email	= !empty( $_POST['email'] ) && is_email( $_POST['email'] ) ? $_POST['email']: '';
 			$login_type	= !empty( $_POST['login_type'] ) ? $_POST['login_type']: 'facebook';
 			$ID 		= email_exists( $user_email );
-			
+
 			$profile_page	= '';
 			if( function_exists('workreap_get_search_page_uri') ){
 				$profile_page  = workreap_get_search_page_uri('dashboard');

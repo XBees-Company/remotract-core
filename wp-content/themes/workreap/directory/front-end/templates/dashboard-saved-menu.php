@@ -19,25 +19,25 @@ $mode 			 		= !empty($_GET['mode']) ? esc_html( $_GET['mode'] ) : 'jobs';
 <div class="wt-dashboardtabs">
 	<ul class="wt-tabstitle nav navbar-nav">
 		<?php if( apply_filters('workreap_system_access','job_base') === true ){ ?>
-			<li class="nav-item">
+			<li class="nav-item wt-saved-job-item">
 				<a class="<?php echo !empty( $mode ) && $mode === 'jobs' ? 'active' : '';?>" href="<?php echo esc_url( $save_jobs_url );?>">
 					<?php esc_html_e('Saved Jobs', 'workreap'); ?>
 				</a>
 			</li>
 		<?php }?>
 		<?php if( apply_filters('workreap_system_access','service_base') === true ){ ?>
-			<li class="nav-item">
+			<li class="nav-item wt-saved-services-item">
 				<a class="<?php echo !empty( $mode ) && $mode === 'service' ? 'active' : '';?>" href="<?php echo esc_url( $save_service_url );?>">
 					<?php esc_html_e('Saved Services', 'workreap'); ?>
 				</a>
 			</li>
 		<?php } ?>
-		<li class="nav-item">
+		<li class="nav-item wt-saved-companies-item">
 			<a class="<?php echo !empty( $mode ) && $mode === 'employer' ? 'active' : '';?>" href="<?php echo esc_url( $saved_compaines_url );?>">
 				<?php esc_html_e('Followed Companies', 'workreap'); ?>
 			</a>
 		</li>
-		<li class="nav-item">
+		<li class="nav-item wt-saved-freelancers-item">
 			<a class="<?php echo !empty( $mode ) && $mode === 'freelancer' ? 'active' : '';?>" href="<?php echo esc_url( $saved_freelancer_url );?>">
 				<?php esc_html_e('Liked Freelancers', 'workreap'); ?>
 			</a>

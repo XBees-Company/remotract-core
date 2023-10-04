@@ -10,6 +10,7 @@
 
 # htaccess
 /.htaccess
+/htaccess
 
 # images files
 /wp-content/uploads/**/*.jpg
