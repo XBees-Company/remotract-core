@@ -1,0 +1,65 @@
+# Folders
+
+/wp-content/themes
+/wp-content/plugins
+
+
+# Configuration
+/wp-config.php
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# images files
+/wp-content/uploads/**/*.jpg
+/wp-content/uploads/**/*.JPEG
+/wp-content/uploads/**/*.PNG
+/wp-content/uploads/**/*.GIF
+/wp-content/uploads/**/*.WebP
+/wp-content/uploads/**/*.SVG
+/wp-content/uploads/**/*.PDF
+/wp-content/uploads/**/*.heic
+/wp-content/uploads/**/*.heif
+
+
+# doc files
+/wp-content/uploads**/*.txt
+/wp-content/uploads**/*.docx 
+/wp-content/uploads**/*.pdf 
+/wp-content/uploads**/*.key 
+/wp-content/uploads**/*.odt 
+/wp-content/uploads**/*.ppt 
+/wp-content/uploads**/*.pptx 
+/wp-content/uploads**/*.pps 
+/wp-content/uploads**/*.ppsx 
+/wp-content/uploads**/*.xls 
+/wp-content/uploads**/*.xlsx 
+
+# audio files
+
+/wp-content/uploads**/*.m4a 
+/wp-content/uploads**/*.mp3
+/wp-content/uploads**/*.ogg
+/wp-content/uploads**/*.wav
+
+
+#viedo files
+/wp-content/uploads**/*.avi
+/wp-content/uploads**/*.mpg
+/wp-content/uploads**/*.mp4
+/wp-content/uploads**/*.MPEG-4
+/wp-content/uploads**/*.m4v 
+/wp-content/uploads**/*.mov 
+/wp-content/uploads**/*.ogv
+/wp-content/uploads**/*.vtt 
+/wp-content/uploads**/*.wmv 
+/wp-content/uploads**/*.3gp 
+/wp-content/uploads**/*.3g2 
+/wp-content/uploads**/*.3GPP
+/wp-content/uploads**/*.3GPP2
+
+
+ 
