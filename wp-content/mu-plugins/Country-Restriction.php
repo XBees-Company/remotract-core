@@ -28,8 +28,6 @@ class Country_Restriction_Plugin {
         // Get the user's IP address
         $user_ip = $_SERVER['REMOTE_ADDR'];
     
-        // var_dump($user_ip );
-    
         // Check if the user is accepted
         if ($this->is_user_accepted()) {
             // User is accepted, process accordingly
@@ -123,7 +121,7 @@ class Country_Restriction_Plugin {
         }
 
         // Define the log file path with the current date
-        $log_file = $log_directory . 'country_access_log_' . date('Y-m-d') . '.txt';
+        $log_file = $log_directory . 'country_access_log_' . date('Y-m-d') . '.log';
 
         // Log the event to a custom log file
         $log_data = $flag . " || " . date('Y-m-d H:i:s') . " - Access $event_type for IP: $user_ip, Country: $user_country\n";

@@ -1,10 +1,10 @@
 # Folders
 wp-content/themes/remotract
+
 cgi-bin
 .well-known
 .wp-cli
 
-/wp-content/country-access/*.text
 
 # Configuration
 wp-config.php
