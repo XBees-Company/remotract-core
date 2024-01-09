@@ -126,10 +126,6 @@ package-lock.json
 *.sublime-project
 *.sublime-workspace
 
-# Ignore miscellaneous files
-Thumbs.db
-.DS_Store
-
 # Ignore text editor temporary files
 *~
 

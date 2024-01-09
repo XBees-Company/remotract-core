@@ -28,7 +28,7 @@ class Country_Restriction_Plugin {
         // Get the user's IP address
         $user_ip = $_SERVER['REMOTE_ADDR'];
     
-        
+        // var_dump($user_ip );
     
         // Check if the user is accepted
         if ($this->is_user_accepted()) {
@@ -132,7 +132,7 @@ class Country_Restriction_Plugin {
 
     private function is_ip_whitelisted($ip) {
         // Get the array of whitelisted IPs
-        $whitelisted_ips = array('154.182.251.244', '197.40.125.93');
+        $whitelisted_ips = array('154.182.251.244', '197.40.125.93', '127.0.0.1');
     
         // Check if the provided IP is in the whitelist
         return in_array($ip, $whitelisted_ips);
