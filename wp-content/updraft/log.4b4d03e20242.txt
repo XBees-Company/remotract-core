@@ -1,0 +1,661 @@
+0000.000 (0) Opened log file at time: Wed, 06 Dec 2023 07:25:32 +0000 on https://staging1.remotract.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 8.0.30 (litespeed, Linux vm-xbees 5.15.0-1047-oracle #53-Ubuntu SMP Wed Oct 18 09:56:06 UTC 2023 aarch64) MySQL: 10.6.12-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: ar Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 20000M (used: 20.3M | 24M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 66800.5 MB
+0000.011 (0) Deleting old temporary file: log.538d2db9c598-browser.txt
+0000.012 (0) Deleting old temporary file: log.1454fdb1281f-browser.txt
+0000.013 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.019 (0) Set semaphore last lock (fd) time to 2023-12-06 07:25:32
+0000.020 (0) Semaphore lock (fd) complete
+0000.023 (0) Backup run: resumption=0, nonce=4b4d03e20242, file_nonce=4b4d03e20242 begun at=1701847532 (0s ago), job type=backup
+0000.025 (0) Scheduling a resumption (1) after 300 seconds (1701847832) in case this run gets aborted
+0000.044 (0) Checking if we have a zip executable available
+0000.045 (0) Testing: /usr/bin/zip
+0000.048 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.049 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.051 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.052 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.060 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.061 (0) Working binary zip found: /usr/bin/zip
+0000.063 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.064 (0) Creation of backups of directories: beginning
+0000.068 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.224 (0) Total entities for the zip file: 2311 directories, 11586 files (0 skipped as non-modified), 163.8 MB
+0000.228 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.230 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.232 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.234 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.235 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.237 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.239 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.242 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.244 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.246 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.247 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.7 MB, 11586 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.101 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: size is now: 7.80 MB
+0001.105 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1100 files added (on-disk size: 7940.8 KB)
+0001.107 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1200 files added (on-disk size: 7940.8 KB)
+0001.109 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1300 files added (on-disk size: 7940.8 KB)
+0001.112 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1400 files added (on-disk size: 7940.8 KB)
+0001.114 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1500 files added (on-disk size: 7940.8 KB)
+0001.116 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1600 files added (on-disk size: 7940.8 KB)
+0001.118 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1700 files added (on-disk size: 7940.8 KB)
+0001.120 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1800 files added (on-disk size: 7940.8 KB)
+0001.122 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 1900 files added (on-disk size: 7940.8 KB)
+0001.124 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2000 files added (on-disk size: 7940.8 KB)
+0001.126 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.4 MB, 11586 files batched, 1001 (2002) added so far); re-opening (prior size: 7940.8 KB)
+0001.854 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: size is now: 13.00 MB
+0001.859 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2100 files added (on-disk size: 13338.6 KB)
+0001.861 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2200 files added (on-disk size: 13338.6 KB)
+0001.863 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2300 files added (on-disk size: 13338.6 KB)
+0001.865 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2400 files added (on-disk size: 13338.6 KB)
+0001.867 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2500 files added (on-disk size: 13338.6 KB)
+0001.869 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2600 files added (on-disk size: 13338.6 KB)
+0001.871 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2700 files added (on-disk size: 13338.6 KB)
+0001.873 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2800 files added (on-disk size: 13338.6 KB)
+0001.875 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 2900 files added (on-disk size: 13338.6 KB)
+0001.877 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3000 files added (on-disk size: 13338.6 KB)
+0001.878 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.9 MB, 11586 files batched, 1001 (3003) added so far); re-opening (prior size: 13338.6 KB)
+0002.761 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: size is now: 19.10 MB
+0002.765 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3100 files added (on-disk size: 19580.3 KB)
+0002.767 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3200 files added (on-disk size: 19580.3 KB)
+0002.770 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3300 files added (on-disk size: 19580.3 KB)
+0002.772 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3400 files added (on-disk size: 19580.3 KB)
+0002.774 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3500 files added (on-disk size: 19580.3 KB)
+0002.776 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3600 files added (on-disk size: 19580.3 KB)
+0002.779 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3700 files added (on-disk size: 19580.3 KB)
+0002.781 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3800 files added (on-disk size: 19580.3 KB)
+0002.783 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 3900 files added (on-disk size: 19580.3 KB)
+0002.786 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 4000 files added (on-disk size: 19580.3 KB)
+0002.787 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.8 MB, 11586 files batched, 1001 (4004) added so far); re-opening (prior size: 19580.3 KB)
+0003.214 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: size is now: 23.80 MB
+0003.219 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 4100 files added (on-disk size: 24386.5 KB)
+0003.221 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 4200 files added (on-disk size: 24386.5 KB)
+0003.223 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 4300 files added (on-disk size: 24386.5 KB)
+0003.225 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 4400 files added (on-disk size: 24386.5 KB)
+0003.227 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.tmp: 4500 files added (on-disk size: 24386.5 KB)
+0003.229 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (2.9 MB, 513 (4517) files added so far); last ratio: 0.3663; re-opening (prior size: 24386.5 KB)
+0003.372 (0) Zip size is at/near split limit (24.7 MB / 25 MB) - bumping index (from: 0)
+0003.623 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.list-temp.tmp)
+0003.632 (0) Successfully created zip file manifest (size: 396686)
+0003.635 (0) Created plugins zip (0) - 25343.1 KB in 3.3 s (7670.1 KB/s) (checksums: sha1: 37bab9ea8f9dbdc85c142b39be768fd162327ddf, sha256: 207fcefc4486c3112b314e95b51eb3d79385651400f788345dab8d482a47a2f6)
+0003.642 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.643 (0) No remote despatch: user chose no remote backup service
+0003.644 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip
+0003.646 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip.list.tmp)
+0003.647 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.650 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0003.652 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0003.654 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0003.655 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0003.657 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0003.659 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0003.661 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0003.663 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0003.665 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0003.666 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0003.667 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.8 MB, 11586 files batched, 1001 (5518) added so far); re-opening (prior size: 0 KB)
+0003.856 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: size is now: 2.00 MB
+0003.860 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5600 files added (on-disk size: 2073.5 KB)
+0003.862 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5700 files added (on-disk size: 2073.5 KB)
+0003.864 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5800 files added (on-disk size: 2073.5 KB)
+0003.866 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 5900 files added (on-disk size: 2073.5 KB)
+0003.868 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6000 files added (on-disk size: 2073.5 KB)
+0003.869 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6100 files added (on-disk size: 2073.5 KB)
+0003.871 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6200 files added (on-disk size: 2073.5 KB)
+0003.873 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6300 files added (on-disk size: 2073.5 KB)
+0003.875 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6400 files added (on-disk size: 2073.5 KB)
+0003.877 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6500 files added (on-disk size: 2073.5 KB)
+0003.878 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.7 MB, 11586 files batched, 1001 (6519) added so far); re-opening (prior size: 2073.5 KB)
+0003.963 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: size is now: 3.10 MB
+0003.967 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6600 files added (on-disk size: 3145.1 KB)
+0003.969 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6700 files added (on-disk size: 3145.1 KB)
+0003.971 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6800 files added (on-disk size: 3145.1 KB)
+0003.973 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 6900 files added (on-disk size: 3145.1 KB)
+0003.975 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7000 files added (on-disk size: 3145.1 KB)
+0003.977 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7100 files added (on-disk size: 3145.1 KB)
+0003.979 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7200 files added (on-disk size: 3145.1 KB)
+0003.981 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7300 files added (on-disk size: 3145.1 KB)
+0003.983 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7400 files added (on-disk size: 3145.1 KB)
+0003.984 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7500 files added (on-disk size: 3145.1 KB)
+0003.986 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.6 MB, 11586 files batched, 1001 (7520) added so far); re-opening (prior size: 3145.1 KB)
+0004.150 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: size is now: 11.10 MB
+0004.155 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7600 files added (on-disk size: 11382.7 KB)
+0004.156 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7700 files added (on-disk size: 11382.7 KB)
+0004.159 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7800 files added (on-disk size: 11382.7 KB)
+0004.161 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 7900 files added (on-disk size: 11382.7 KB)
+0004.163 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8000 files added (on-disk size: 11382.7 KB)
+0004.164 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8100 files added (on-disk size: 11382.7 KB)
+0004.166 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8200 files added (on-disk size: 11382.7 KB)
+0004.168 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8300 files added (on-disk size: 11382.7 KB)
+0004.170 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8400 files added (on-disk size: 11382.7 KB)
+0004.172 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8500 files added (on-disk size: 11382.7 KB)
+0004.173 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 11586 files batched, 1001 (8521) added so far); re-opening (prior size: 11382.7 KB)
+0004.460 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: size is now: 13.50 MB
+0004.464 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8600 files added (on-disk size: 13822.4 KB)
+0004.466 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8700 files added (on-disk size: 13822.4 KB)
+0004.468 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8800 files added (on-disk size: 13822.4 KB)
+0004.469 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 8900 files added (on-disk size: 13822.4 KB)
+0004.470 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 11586 files batched, 391 (8912) added so far); re-opening (prior size: 13822.4 KB)
+0005.362 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: size is now: 20.40 MB
+0005.365 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 23297.9 KB/s)
+0005.366 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.0999069213867, normalised_time=1.0988115218544, max_time=5.3658900260925, data points known=1, max_bytes=26214400)
+0005.369 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9000 files added (on-disk size: 20923.9 KB)
+0005.371 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9100 files added (on-disk size: 20923.9 KB)
+0005.373 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9200 files added (on-disk size: 20923.9 KB)
+0005.374 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9300 files added (on-disk size: 20923.9 KB)
+0005.376 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9400 files added (on-disk size: 20923.9 KB)
+0005.378 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9500 files added (on-disk size: 20923.9 KB)
+0005.380 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9600 files added (on-disk size: 20923.9 KB)
+0005.382 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9700 files added (on-disk size: 20923.9 KB)
+0005.384 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9800 files added (on-disk size: 20923.9 KB)
+0005.386 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.tmp: 9900 files added (on-disk size: 20923.9 KB)
+0005.387 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.5 MB, 11586 files batched, 1001 (9913) added so far); re-opening (prior size: 20923.9 KB)
+0006.029 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (3.8 MB, 18 (9931) files added so far); last ratio: 0.2754; re-opening (prior size: 24436.8 KB)
+0006.281 (0) Zip size is at/near split limit (25.7 MB / 25 MB) - bumping index (from: 1)
+0006.534 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.list-temp.tmp)
+0006.543 (0) Successfully created zip file manifest (size: 539669)
+0006.547 (0) Created plugins zip (1) - 26340.5 KB in 2.6 s (9954 KB/s) (checksums: sha1: 054598ffc0b83e6502e0f9e7112a48702c30d450, sha256: 593fd7c0a49f08cc6d7a1b86adf77298545bff982258aff610e7ba83f7436cc4)
+0006.555 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.556 (0) No remote despatch: user chose no remote backup service
+0006.557 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip
+0006.559 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip.list.tmp)
+0006.560 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0006.563 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10000 files added (on-disk size: 0 KB)
+0006.565 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10100 files added (on-disk size: 0 KB)
+0006.567 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10200 files added (on-disk size: 0 KB)
+0006.569 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10300 files added (on-disk size: 0 KB)
+0006.570 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10400 files added (on-disk size: 0 KB)
+0006.572 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10500 files added (on-disk size: 0 KB)
+0006.574 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10600 files added (on-disk size: 0 KB)
+0006.576 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10700 files added (on-disk size: 0 KB)
+0006.578 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10800 files added (on-disk size: 0 KB)
+0006.580 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 10900 files added (on-disk size: 0 KB)
+0006.581 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.9 MB, 11586 files batched, 1001 (10932) added so far); re-opening (prior size: 0 KB)
+0007.566 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: size is now: 6.00 MB
+0007.570 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 11000 files added (on-disk size: 6178 KB)
+0007.572 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 11100 files added (on-disk size: 6178 KB)
+0007.574 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 11200 files added (on-disk size: 6178 KB)
+0007.575 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 11300 files added (on-disk size: 6178 KB)
+0007.577 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 11400 files added (on-disk size: 6178 KB)
+0007.579 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.tmp: 11500 files added (on-disk size: 6178 KB)
+0007.988 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.list-temp.tmp)
+0007.992 (0) Successfully created zip file manifest (size: 184719)
+0008.057 (0) Created plugins zip (2) - 7336.3 KB in 1.5 s (4864.6 KB/s) (sha1: b47217a8511a632c7d6e3c8a1f0b35616e3134d7, sha256: 61dc53791d750967cdc88323b62ab20662c5530906d5812ae0171144e9d6cb83)
+0008.063 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.064 (0) No remote despatch: user chose no remote backup service
+0008.065 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip
+0008.067 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip.list.tmp)
+0008.069 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0008.073 (0) Beginning creation of dump of themes (split every: 25 MB)
+0008.120 (0) Total entities for the zip file: 458 directories, 3649 files (0 skipped as non-modified), 127.2 MB
+0008.122 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.124 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.126 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.128 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.130 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.132 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0008.134 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 3649 files batched, 692 (692) added so far); re-opening (prior size: 0 KB)
+0008.844 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.tmp: size is now: 17.40 MB
+0008.847 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.6 s, rate: 16415.2 KB/s)
+0008.848 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.5822510719299, normalised_time=1.5595260296604, max_time=8.8483190536499, data points known=1, max_bytes=26214400)
+0008.851 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (13.9 MB, 5 (697) files added so far); last ratio: 0.6876; re-opening (prior size: 17859.3 KB)
+0009.074 (0) Zip size is at/near split limit (18.3 MB / 25 MB) - bumping index (from: 0)
+0009.233 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.list-temp.tmp)
+0009.236 (0) Successfully created zip file manifest (size: 48589)
+0009.239 (0) Created themes zip (0) - 18709 KB in 1 s (18695 KB/s) (checksums: sha1: 2e2f129aec43a189abf47a919f4699af1446eb08, sha256: 5cb1ff3ba1981b30260151f1f1a50ad6a9fd2b51542488201e146a98d13f8471)
+0009.246 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.248 (0) No remote despatch: user chose no remote backup service
+0009.249 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip
+0009.252 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip.list.tmp)
+0009.253 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0009.256 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 700 files added (on-disk size: 0 KB)
+0009.258 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 800 files added (on-disk size: 0 KB)
+0009.260 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 900 files added (on-disk size: 0 KB)
+0009.262 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0009.264 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0009.266 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0009.268 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0009.271 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0009.273 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0009.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (38.5 MB, 3649 files batched, 833 (1530) added so far); re-opening (prior size: 0 KB)
+0010.150 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: size is now: 16.30 MB
+0010.153 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.2 s, rate: 20902.1 KB/s)
+0010.154 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.8881781101227, normalised_time=1.2247599266759, max_time=10.15408205986, data points known=1, max_bytes=26214400)
+0010.157 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1600 files added (on-disk size: 16681 KB)
+0010.159 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1700 files added (on-disk size: 16681 KB)
+0010.161 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1800 files added (on-disk size: 16681 KB)
+0010.163 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 1900 files added (on-disk size: 16681 KB)
+0010.165 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 2000 files added (on-disk size: 16681 KB)
+0010.167 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: 2100 files added (on-disk size: 16681 KB)
+0010.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (18.7 MB, 594 (2124) files added so far); last ratio: 0.4227; re-opening (prior size: 16681 KB)
+0010.761 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.tmp: size is now: 28.20 MB
+0010.764 (0) Zip size is at/near split limit (28.2 MB / 25 MB) - bumping index (from: 1)
+0011.006 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.list-temp.tmp)
+0011.009 (0) Successfully created zip file manifest (size: 121588)
+0011.012 (0) Created themes zip (1) - 28842.4 KB in 1.5 s (18910.3 KB/s) (checksums: sha1: 6f0851aa425930090ebf4b9632f35ac4410cb00f, sha256: 7479ffd4bd695dcd0d7eb36b717aa28cd50cd29c2fb4053f933045fc37f598fb)
+0011.018 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.019 (0) No remote despatch: user chose no remote backup service
+0011.020 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip
+0011.022 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip.list.tmp)
+0011.023 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0011.026 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0011.028 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0011.030 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0011.031 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0011.033 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0011.035 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0011.037 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0011.039 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0011.040 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0011.042 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0011.043 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 3649 files batched, 1001 (3125) added so far); re-opening (prior size: 0 KB)
+0011.955 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: size is now: 5.90 MB
+0011.960 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3200 files added (on-disk size: 6014.7 KB)
+0011.962 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3300 files added (on-disk size: 6014.7 KB)
+0011.965 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3400 files added (on-disk size: 6014.7 KB)
+0011.967 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3500 files added (on-disk size: 6014.7 KB)
+0011.969 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: 3600 files added (on-disk size: 6014.7 KB)
+0012.705 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.tmp: size is now: 19.10 MB
+0012.720 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.list-temp.tmp)
+0012.723 (0) Successfully created zip file manifest (size: 110059)
+0012.884 (0) Created themes zip (2) - 19600 KB in 1.9 s (10483 KB/s) (sha1: 14dc8029d6feb4311c3206a880ac18a1d550ccf5, sha256: 1e7b0cf3ce75694f77f3c71972cba990eda61d9470ae527cd7c847f6a867314a)
+0012.889 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.890 (0) No remote despatch: user chose no remote backup service
+0012.891 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip
+0012.894 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip.list.tmp)
+0012.895 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0012.899 (0) Exclusion option setting (uploads): 
+0012.900 (0) Looking for candidates to backup in: /home/remotract.com/staging1.remotract.com/wp-content/uploads
+0012.902 (0) finding files: woocommerce-placeholder-540x240.png: adding to list (1)
+0012.903 (0) finding files: woocommerce-placeholder-352x200.png: adding to list (2)
+0012.904 (0) finding files: wp-contentuploadswoocommerce-placeholder-1024x10242.png: adding to list (3)
+0012.905 (0) finding files: woocommerce-placeholder-1140x400.png: adding to list (4)
+0012.906 (0) finding files: woocommerce-placeholder-355x352.png: adding to list (5)
+0012.907 (0) finding files: woocommerce-placeholder-730x240.png: adding to list (6)
+0012.908 (0) finding files: woocommerce_uploads: adding to list (7)
+0012.909 (0) finding files: wc-logs: adding to list (8)
+0012.910 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (9)
+0012.911 (0) finding files: qr-code: adding to list (10)
+0012.911 (0) finding files: workreap-temp: adding to list (11)
+0012.912 (0) finding files: woocommerce-placeholder-320x220.png: adding to list (12)
+0012.913 (0) finding files: 2023: adding to list (13)
+0012.914 (0) finding files: woocommerce-placeholder.png: adding to list (14)
+0012.915 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (15)
+0012.916 (0) finding files: woocommerce-placeholder-670x370.png: adding to list (16)
+0012.917 (0) finding files: elementor: adding to list (17)
+0012.917 (0) finding files: woocommerce-placeholder-1200x400.png: adding to list (18)
+0012.918 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (19)
+0012.919 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (20)
+0012.920 (0) finding files: woocommerce-placeholder-235x149.png: adding to list (21)
+0012.921 (0) finding files: wpcf7_uploads: adding to list (22)
+0012.921 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (23)
+0012.922 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (24)
+0012.923 (0) finding files: woocommerce-placeholder-225x225.png: adding to list (25)
+0012.924 (0) finding files: woocommerce-placeholder-290x215.png: adding to list (26)
+0012.924 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0012.932 (0) Total entities for the zip file: 13 directories, 499 files (0 skipped as non-modified), 9.1 MB
+0012.935 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.937 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.939 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.941 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0013.292 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.tmp: size is now: 9.00 MB
+0013.298 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.list-temp.tmp)
+0013.300 (0) Successfully created zip file manifest (size: 33406)
+0013.379 (0) Created uploads zip (0) - 9235.4 KB in 0.5 s (20429.6 KB/s) (sha1: b7af4793877bb835e0a623069322c6336eecc299, sha256: 3612c2857575c7318c684e705f79581c79f012c19156d3563fd58fb629e2489e)
+0013.383 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.384 (0) No remote despatch: user chose no remote backup service
+0013.385 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip
+0013.387 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip.list.tmp)
+0013.388 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0013.391 (0) No backup of mu-plugins: excluded by user's options
+0013.393 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.394 (0) Exclusion option setting (others): 
+0013.394 (0) Looking for candidates to backup in: /home/remotract.com/staging1.remotract.com/wp-content
+0013.395 (0) finding files: uploads: skipping: this is the uploads directory
+0013.396 (0) finding files: upgrade-temp-backup: adding to list (1)
+0013.397 (0) finding files: updraft: skipping: this is the updraft directory
+0013.398 (0) finding files: index.php: adding to list (2)
+0013.398 (0) finding files: languages: adding to list (3)
+0013.399 (0) finding files: themes: skipping: this is the themes directory
+0013.400 (0) finding files: plugins: skipping: this is the plugins directory
+0013.401 (0) finding files: upgrade: adding to list (4)
+0013.407 (0) Total entities for the zip file: 6 directories, 401 files (0 skipped as non-modified), 8.2 MB
+0013.409 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.411 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0013.412 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0013.414 (0) Zip: backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0013.784 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.tmp: size is now: 2.10 MB
+0013.790 (0) Creating zip file manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.list-temp.tmp)
+0013.792 (0) Successfully created zip file manifest (size: 30336)
+0013.814 (0) Created others zip (0) - 2119.4 KB in 0.4 s (5156.2 KB/s) (sha1: 9fc17fcbf994d4db2b098e988612cc537f01f8aa, sha256: 316442a303c87a27d822230d3e0c0055501dacf5307f4a886912da49feb6166b)
+0013.819 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.819 (0) No remote despatch: user chose no remote backup service
+0013.820 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip
+0013.823 (0) Deleting zip manifest (backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip.list.tmp)
+0013.824 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0013.831 (0) Saving backup status to database (elements: 12)
+0013.833 (0) Beginning creation of database dump (WordPress DB)
+0013.834 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0013.837 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0013.853 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wprt23_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */; (truncated - 1479 bytes total)
+0013.854 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0013.866 (0) Table wprt23_options: Total expected rows (via COUNT): 617
+0013.952 (0) Table wprt23_options: Rows added in this batch (next record: 40375): 613 (uncompressed bytes in this segment=4099955) in 0.09 seconds
+0013.958 (0) Table wprt23_options: finishing file(s) (2, 520.7 KB)
+0013.962 (0) Table wprt23_users: Total expected rows (via COUNT): 5
+0013.963 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.966 (0) Table wprt23_users: Rows added in this batch (next record: 29): 5 (uncompressed bytes in this segment=1863) in 0.00 seconds
+0013.970 (0) Table wprt23_users: finishing file(s) (2, 0.8 KB)
+0013.975 (0) Table wprt23_usermeta: Total expected rows (via COUNT): 168
+0013.976 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.979 (0) Table wprt23_usermeta: Rows added in this batch (next record: 761): 168 (uncompressed bytes in this segment=12432) in 0.01 seconds
+0013.984 (0) Table wprt23_usermeta: finishing file(s) (2, 3.8 KB)
+0013.989 (0) Table wprt23_actionscheduler_actions: Total expected rows (via COUNT): 18
+0013.990 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.992 (0) Table wprt23_actionscheduler_actions: Rows added in this batch (next record: 63): 18 (uncompressed bytes in this segment=9868) in 0.01 seconds
+0013.997 (0) Table wprt23_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0014.001 (0) Table wprt23_actionscheduler_claims: Total expected rows (via COUNT): 0
+0014.003 (0) Table wprt23_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.00 seconds
+0014.008 (0) Table wprt23_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0014.012 (0) Table wprt23_actionscheduler_groups: Total expected rows (via COUNT): 3
+0014.013 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.016 (0) Table wprt23_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=737) in 0.00 seconds
+0014.021 (0) Table wprt23_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0014.025 (0) Table wprt23_actionscheduler_logs: Total expected rows (via COUNT): 52
+0014.026 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.029 (0) Table wprt23_actionscheduler_logs: Rows added in this batch (next record: 166): 52 (uncompressed bytes in this segment=6254) in 0.01 seconds
+0014.034 (0) Table wprt23_actionscheduler_logs: finishing file(s) (2, 1.2 KB)
+0014.042 (0) Table wprt23_commentmeta: Total expected rows (via COUNT): 0
+0014.045 (0) Table wprt23_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0014.051 (0) Table wprt23_commentmeta: finishing file(s) (2, 0.4 KB)
+0014.056 (0) Table wprt23_comments: Total expected rows (via COUNT): 1
+0014.057 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.060 (0) Table wprt23_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1960) in 0.00 seconds
+0014.064 (0) Table wprt23_comments: finishing file(s) (2, 0.8 KB)
+0014.069 (0) Table wprt23_links: Total expected rows (via COUNT): 0
+0014.073 (0) Table wprt23_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.01 seconds
+0014.077 (0) Table wprt23_links: finishing file(s) (2, 0.5 KB)
+0014.299 (0) Table wprt23_postmeta: Total expected rows (approximate): 1192
+0014.436 (0) Table wprt23_postmeta: Rows added in this batch (next record: 1745): 1227 (uncompressed bytes in this segment=5821560) in 0.36 seconds
+0014.444 (0) Table wprt23_postmeta: finishing file(s) (2, 567.2 KB)
+0014.539 (0) Table wprt23_posts: Total expected rows (via COUNT): 193
+0014.541 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.563 (0) Table wprt23_posts: Rows added in this batch (next record: 5043): 193 (uncompressed bytes in this segment=1460902) in 0.12 seconds
+0014.571 (0) Table wprt23_posts: finishing file(s) (2, 52.4 KB)
+0014.575 (0) Table wprt23_term_relationships: Total expected rows (approximate): 9
+0014.578 (0) Table wprt23_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=850) in 0.00 seconds
+0014.584 (0) Table wprt23_term_relationships: finishing file(s) (2, 0.4 KB)
+0014.590 (0) Table wprt23_term_taxonomy: Total expected rows (via COUNT): 23
+0014.591 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.595 (0) Table wprt23_term_taxonomy: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1779) in 0.01 seconds
+0014.602 (0) Table wprt23_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0014.609 (0) Table wprt23_termmeta: Total expected rows (via COUNT): 5
+0014.610 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.612 (0) Table wprt23_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1186) in 0.01 seconds
+0014.618 (0) Table wprt23_termmeta: finishing file(s) (2, 0.5 KB)
+0014.623 (0) Table wprt23_terms: Total expected rows (via COUNT): 23
+0014.624 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.626 (0) Table wprt23_terms: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1632) in 0.00 seconds
+0014.631 (0) Table wprt23_terms: finishing file(s) (2, 0.7 KB)
+0014.635 (0) Table wprt23_wc_category_lookup: Total expected rows (approximate): 1
+0014.639 (0) Table wprt23_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=617) in 0.00 seconds
+0014.644 (0) Table wprt23_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0014.650 (0) Table wprt23_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0014.651 (0) Table wprt23_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1249) in 0.00 seconds
+0014.657 (0) Table wprt23_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0014.661 (0) Table wprt23_wc_reserved_stock: Total expected rows (approximate): 0
+0014.664 (0) Table wprt23_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0014.669 (0) Table wprt23_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0014.674 (0) Table wprt23_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0014.675 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.679 (0) Table wprt23_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=778) in 0.01 seconds
+0014.683 (0) Table wprt23_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0014.689 (0) Table wprt23_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0014.691 (0) Table wprt23_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=746) in 0.01 seconds
+0014.697 (0) Table wprt23_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0014.703 (0) Table wprt23_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0014.704 (0) Table wprt23_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0014.709 (0) Table wprt23_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0014.716 (0) Table wprt23_e_events: Total expected rows (via COUNT): 0
+0014.719 (0) Table wprt23_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.00 seconds
+0014.722 (0) Table wprt23_e_events: finishing file(s) (2, 0.4 KB)
+0014.728 (0) Table wprt23_private_chat: Total expected rows (via COUNT): 0
+0014.729 (0) Table wprt23_private_chat: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0014.734 (0) Table wprt23_private_chat: finishing file(s) (2, 0.4 KB)
+0014.738 (0) Table wprt23_wc_admin_note_actions: Total expected rows (via COUNT): 107
+0014.739 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.743 (0) Table wprt23_wc_admin_note_actions: Rows added in this batch (next record: 6767): 107 (uncompressed bytes in this segment=20544) in 0.01 seconds
+0014.748 (0) Table wprt23_wc_admin_note_actions: finishing file(s) (2, 3.3 KB)
+0014.753 (0) Table wprt23_wc_admin_notes: Total expected rows (via COUNT): 74
+0014.754 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.758 (0) Table wprt23_wc_admin_notes: Rows added in this batch (next record: 74): 74 (uncompressed bytes in this segment=36937) in 0.01 seconds
+0014.763 (0) Table wprt23_wc_admin_notes: finishing file(s) (2, 8 KB)
+0014.768 (0) Table wprt23_wc_customer_lookup: Total expected rows (via COUNT): 0
+0014.771 (0) Table wprt23_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1042) in 0.00 seconds
+0014.775 (0) Table wprt23_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0014.779 (0) Table wprt23_wc_download_log: Total expected rows (via COUNT): 0
+0014.780 (0) Table wprt23_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.00 seconds
+0014.784 (0) Table wprt23_wc_download_log: finishing file(s) (2, 0.4 KB)
+0014.788 (0) Table wprt23_wc_order_addresses: Total expected rows (via COUNT): 0
+0014.790 (0) Table wprt23_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1082) in 0.00 seconds
+0014.794 (0) Table wprt23_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0014.798 (0) Table wprt23_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0014.799 (0) Table wprt23_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0014.803 (0) Table wprt23_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0014.807 (0) Table wprt23_wc_order_operational_data: Total expected rows (via COUNT): 0
+0014.809 (0) Table wprt23_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1423) in 0.00 seconds
+0014.814 (0) Table wprt23_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0014.818 (0) Table wprt23_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0014.820 (0) Table wprt23_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1239) in 0.00 seconds
+0014.823 (0) Table wprt23_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0014.828 (0) Table wprt23_wc_order_stats: Total expected rows (via COUNT): 0
+0014.829 (0) Table wprt23_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1216) in 0.00 seconds
+0014.833 (0) Table wprt23_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0014.836 (0) Table wprt23_wc_order_tax_lookup: Total expected rows (approximate): 0
+0014.838 (0) Table wprt23_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=817) in 0.00 seconds
+0014.842 (0) Table wprt23_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0014.846 (0) Table wprt23_wc_orders: Total expected rows (via COUNT): 0
+0014.848 (0) Table wprt23_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1441) in 0.00 seconds
+0014.852 (0) Table wprt23_wc_orders: finishing file(s) (2, 0.6 KB)
+0014.856 (0) Table wprt23_wc_orders_meta: Total expected rows (via COUNT): 0
+0014.859 (0) Table wprt23_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.00 seconds
+0014.863 (0) Table wprt23_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0014.866 (0) Table wprt23_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0014.869 (0) Table wprt23_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=855) in 0.00 seconds
+0014.873 (0) Table wprt23_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0014.877 (0) Table wprt23_wc_product_download_directories: Total expected rows (via COUNT): 2
+0014.878 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.881 (0) Table wprt23_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=922) in 0.00 seconds
+0014.884 (0) Table wprt23_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0014.888 (0) Table wprt23_wc_rate_limits: Total expected rows (via COUNT): 0
+0014.891 (0) Table wprt23_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.00 seconds
+0014.894 (0) Table wprt23_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0014.898 (0) Table wprt23_wc_webhooks: Total expected rows (via COUNT): 0
+0014.900 (0) Table wprt23_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1095) in 0.00 seconds
+0014.904 (0) Table wprt23_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0014.911 (0) Table wprt23_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0014.912 (0) Table wprt23_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=897) in 0.01 seconds
+0014.918 (0) Table wprt23_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0014.923 (0) Table wprt23_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0014.924 (0) Table wprt23_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=859) in 0.00 seconds
+0014.929 (0) Table wprt23_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0014.934 (0) Table wprt23_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0014.936 (0) Table wprt23_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.00 seconds
+0014.941 (0) Table wprt23_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0014.948 (0) Table wprt23_woocommerce_log: Total expected rows (via COUNT): 0
+0014.949 (0) Table wprt23_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.01 seconds
+0014.955 (0) Table wprt23_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0014.960 (0) Table wprt23_woocommerce_order_items: Total expected rows (via COUNT): 0
+0014.963 (0) Table wprt23_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0014.968 (0) Table wprt23_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0014.972 (0) Table wprt23_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0014.975 (0) Table wprt23_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.00 seconds
+0014.979 (0) Table wprt23_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0014.985 (0) Table wprt23_woocommerce_sessions: Total expected rows (via COUNT): 3
+0014.986 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.989 (0) Table wprt23_woocommerce_sessions: Rows added in this batch (next record: 48): 3 (uncompressed bytes in this segment=5000) in 0.01 seconds
+0014.996 (0) Table wprt23_woocommerce_sessions: finishing file(s) (2, 1 KB)
+0015.001 (0) Table wprt23_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0015.004 (0) Table wprt23_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.00 seconds
+0015.008 (0) Table wprt23_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0015.012 (0) Table wprt23_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0015.013 (0) Table wprt23_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=766) in 0.00 seconds
+0015.018 (0) Table wprt23_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0015.022 (0) Table wprt23_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0015.023 (0) Table wprt23_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0015.028 (0) Table wprt23_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0015.032 (0) Table wprt23_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0015.035 (0) Table wprt23_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.00 seconds
+0015.039 (0) Table wprt23_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0015.044 (0) Table wprt23_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0015.045 (0) Table wprt23_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1166) in 0.00 seconds
+0015.049 (0) Table wprt23_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0015.053 (0) Table wprt23_wt_earnings: Total expected rows (via COUNT): 0
+0015.055 (0) Table wprt23_wt_earnings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.00 seconds
+0015.059 (0) Table wprt23_wt_earnings: finishing file(s) (2, 0.5 KB)
+0015.065 (0) Table wprt23_wt_payouts_history: Total expected rows (via COUNT): 0
+0015.066 (0) Table wprt23_wt_payouts_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.00 seconds
+0015.071 (0) Table wprt23_wt_payouts_history: finishing file(s) (2, 0.5 KB)
+0015.072 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/remotract.com/staging1.remotract.com/wp-content/updraft/backup_2023-12-06-0725_RemoTract_4b4d03e20242-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0015.074 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_options.table.tmpr40376.gz (1/54/fopen): adding to final database dump
+0015.078 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_options.table.gz (2/54/fopen): adding to final database dump
+0015.080 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_users.table.tmpr30.gz (3/54/fopen): adding to final database dump
+0015.081 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_users.table.gz (4/54/fopen): adding to final database dump
+0015.082 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_usermeta.table.tmpr762.gz (5/54/fopen): adding to final database dump
+0015.083 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_usermeta.table.gz (6/54/fopen): adding to final database dump
+0015.084 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_actions.table.tmpr64.gz (7/54/fopen): adding to final database dump
+0015.085 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_actions.table.gz (8/54/fopen): adding to final database dump
+0015.087 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_claims.table.tmpr0.gz (9/54/fopen): adding to final database dump
+0015.088 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_claims.table.gz (10/54/fopen): adding to final database dump
+0015.089 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_groups.table.tmpr4.gz (11/54/fopen): adding to final database dump
+0015.090 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_groups.table.gz (12/54/fopen): adding to final database dump
+0015.091 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_logs.table.tmpr167.gz (13/54/fopen): adding to final database dump
+0015.092 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_actionscheduler_logs.table.gz (14/54/fopen): adding to final database dump
+0015.093 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_commentmeta.table.tmpr0.gz (15/54/fopen): adding to final database dump
+0015.095 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_commentmeta.table.gz (16/54/fopen): adding to final database dump
+0015.096 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_comments.table.tmpr2.gz (17/54/fopen): adding to final database dump
+0015.097 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_comments.table.gz (18/54/fopen): adding to final database dump
+0015.098 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_links.table.tmpr0.gz (19/54/fopen): adding to final database dump
+0015.100 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_links.table.gz (20/54/fopen): adding to final database dump
+0015.101 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_postmeta.table.tmpr1746.gz (21/54/fopen): adding to final database dump
+0015.105 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_postmeta.table.gz (22/54/fopen): adding to final database dump
+0015.107 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_posts.table.tmpr5044.gz (23/54/fopen): adding to final database dump
+0015.108 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_posts.table.gz (24/54/fopen): adding to final database dump
+0015.109 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_term_relationships.table.tmpr100001.gz (25/54/fopen): adding to final database dump
+0015.110 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_term_relationships.table.gz (26/54/fopen): adding to final database dump
+0015.111 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_term_taxonomy.table.tmpr24.gz (27/54/fopen): adding to final database dump
+0015.113 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_term_taxonomy.table.gz (28/54/fopen): adding to final database dump
+0015.114 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_termmeta.table.tmpr6.gz (29/54/fopen): adding to final database dump
+0015.115 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_termmeta.table.gz (30/54/fopen): adding to final database dump
+0015.116 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_terms.table.tmpr24.gz (31/54/fopen): adding to final database dump
+0015.117 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_terms.table.gz (32/54/fopen): adding to final database dump
+0015.119 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_category_lookup.table.tmpr1001.gz (33/54/fopen): adding to final database dump
+0015.120 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_category_lookup.table.gz (34/54/fopen): adding to final database dump
+0015.121 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_product_meta_lookup.table.tmpr0.gz (35/54/fopen): adding to final database dump
+0015.122 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_product_meta_lookup.table.gz (36/54/fopen): adding to final database dump
+0015.123 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_reserved_stock.table.tmpr1.gz (37/54/fopen): adding to final database dump
+0015.124 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_reserved_stock.table.gz (38/54/fopen): adding to final database dump
+0015.125 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_tax_rate_classes.table.tmpr3.gz (39/54/fopen): adding to final database dump
+0015.126 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_tax_rate_classes.table.gz (40/54/fopen): adding to final database dump
+0015.128 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_order_itemmeta.table.tmpr0.gz (41/54/fopen): adding to final database dump
+0015.129 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_order_itemmeta.table.gz (42/54/fopen): adding to final database dump
+0015.130 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/54/fopen): adding to final database dump
+0015.131 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_payment_tokenmeta.table.gz (44/54/fopen): adding to final database dump
+0015.132 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_e_events.table.tmpr0.gz (45/54/fopen): adding to final database dump
+0015.133 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_e_events.table.gz (46/54/fopen): adding to final database dump
+0015.134 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_private_chat.table.tmpr0.gz (47/54/fopen): adding to final database dump
+0015.136 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_private_chat.table.gz (48/54/fopen): adding to final database dump
+0015.137 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_admin_note_actions.table.tmpr6768.gz (49/54/fopen): adding to final database dump
+0015.138 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_admin_note_actions.table.gz (50/54/fopen): adding to final database dump
+0015.139 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_admin_notes.table.tmpr75.gz (51/54/fopen): adding to final database dump
+0015.140 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_admin_notes.table.gz (52/54/fopen): adding to final database dump
+0015.142 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_customer_lookup.table.tmpr0.gz (53/54/fopen): adding to final database dump
+0015.143 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_customer_lookup.table.gz (54/54/fopen): adding to final database dump
+0015.144 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_download_log.table.tmpr0.gz (55/54/fopen): adding to final database dump
+0015.145 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_download_log.table.gz (56/54/fopen): adding to final database dump
+0015.146 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_addresses.table.tmpr0.gz (57/54/fopen): adding to final database dump
+0015.148 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_addresses.table.gz (58/54/fopen): adding to final database dump
+0015.149 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_coupon_lookup.table.tmpr1.gz (59/54/fopen): adding to final database dump
+0015.150 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_coupon_lookup.table.gz (60/54/fopen): adding to final database dump
+0015.151 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_operational_data.table.tmpr0.gz (61/54/fopen): adding to final database dump
+0015.152 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_operational_data.table.gz (62/54/fopen): adding to final database dump
+0015.154 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_product_lookup.table.tmpr0.gz (63/54/fopen): adding to final database dump
+0015.155 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_product_lookup.table.gz (64/54/fopen): adding to final database dump
+0015.156 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_stats.table.tmpr0.gz (65/54/fopen): adding to final database dump
+0015.157 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_stats.table.gz (66/54/fopen): adding to final database dump
+0015.158 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_tax_lookup.table.tmpr1.gz (67/54/fopen): adding to final database dump
+0015.159 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_order_tax_lookup.table.gz (68/54/fopen): adding to final database dump
+0015.160 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_orders.table.tmpr0.gz (69/54/fopen): adding to final database dump
+0015.162 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_orders.table.gz (70/54/fopen): adding to final database dump
+0015.163 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_orders_meta.table.tmpr0.gz (71/54/fopen): adding to final database dump
+0015.164 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_orders_meta.table.gz (72/54/fopen): adding to final database dump
+0015.165 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_product_attributes_lookup.table.tmpr1.gz (73/54/fopen): adding to final database dump
+0015.166 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_product_attributes_lookup.table.gz (74/54/fopen): adding to final database dump
+0015.168 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_product_download_directories.table.tmpr3.gz (75/54/fopen): adding to final database dump
+0015.169 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_product_download_directories.table.gz (76/54/fopen): adding to final database dump
+0015.170 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_rate_limits.table.tmpr0.gz (77/54/fopen): adding to final database dump
+0015.171 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_rate_limits.table.gz (78/54/fopen): adding to final database dump
+0015.172 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_webhooks.table.tmpr0.gz (79/54/fopen): adding to final database dump
+0015.174 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wc_webhooks.table.gz (80/54/fopen): adding to final database dump
+0015.175 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_api_keys.table.tmpr0.gz (81/54/fopen): adding to final database dump
+0015.176 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_api_keys.table.gz (82/54/fopen): adding to final database dump
+0015.177 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_attribute_taxonomies.table.tmpr0.gz (83/54/fopen): adding to final database dump
+0015.178 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_attribute_taxonomies.table.gz (84/54/fopen): adding to final database dump
+0015.180 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_downloadable_product_permissions.table.tmpr0.gz (85/54/fopen): adding to final database dump
+0015.181 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_downloadable_product_permissions.table.gz (86/54/fopen): adding to final database dump
+0015.182 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_log.table.tmpr0.gz (87/54/fopen): adding to final database dump
+0015.183 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_log.table.gz (88/54/fopen): adding to final database dump
+0015.184 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_order_items.table.tmpr0.gz (89/54/fopen): adding to final database dump
+0015.186 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_order_items.table.gz (90/54/fopen): adding to final database dump
+0015.187 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_payment_tokens.table.tmpr0.gz (91/54/fopen): adding to final database dump
+0015.188 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_payment_tokens.table.gz (92/54/fopen): adding to final database dump
+0015.189 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_sessions.table.tmpr49.gz (93/54/fopen): adding to final database dump
+0015.190 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_sessions.table.gz (94/54/fopen): adding to final database dump
+0015.191 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_shipping_zone_locations.table.tmpr0.gz (95/54/fopen): adding to final database dump
+0015.193 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_shipping_zone_locations.table.gz (96/54/fopen): adding to final database dump
+0015.194 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_shipping_zone_methods.table.tmpr0.gz (97/54/fopen): adding to final database dump
+0015.195 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_shipping_zone_methods.table.gz (98/54/fopen): adding to final database dump
+0015.196 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_shipping_zones.table.tmpr0.gz (99/54/fopen): adding to final database dump
+0015.199 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_shipping_zones.table.gz (100/54/fopen): adding to final database dump
+0015.200 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_tax_rate_locations.table.tmpr0.gz (101/54/fopen): adding to final database dump
+0015.201 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_tax_rate_locations.table.gz (102/54/fopen): adding to final database dump
+0015.202 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_tax_rates.table.tmpr0.gz (103/54/fopen): adding to final database dump
+0015.203 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_woocommerce_tax_rates.table.gz (104/54/fopen): adding to final database dump
+0015.204 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wt_earnings.table.tmpr0.gz (105/54/fopen): adding to final database dump
+0015.206 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wt_earnings.table.gz (106/54/fopen): adding to final database dump
+0015.207 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wt_payouts_history.table.tmpr0.gz (107/54/fopen): adding to final database dump
+0015.208 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db-table-wprt23_wt_payouts_history.table.gz (108/54/fopen): adding to final database dump
+0015.211 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db.gz: finished writing out complete database file (1178.9 KB)
+0015.228 (0) Total database tables backed up: 54 (backup_2023-12-06-0725_RemoTract_4b4d03e20242-db.gz, size: 1207353, sha1: b3d3411bac3a344adf63e9737492e80ad5ff3476, sha256: 40a2f4851314dc4ca6b30af5793dcd375127dc5f4dbbe0121f960cc8ae081202)
+0015.235 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip: plugins: This file has already been successfully uploaded
+0015.236 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip: plugins: This file has already been successfully uploaded
+0015.237 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip: plugins: This file has already been successfully uploaded
+0015.238 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip: themes: This file has already been successfully uploaded
+0015.239 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip: themes: This file has already been successfully uploaded
+0015.240 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip: themes: This file has already been successfully uploaded
+0015.241 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip: uploads: This file has already been successfully uploaded
+0015.243 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-others.zip: others: This file has already been successfully uploaded
+0015.244 (0) backup_2023-12-06-0725_RemoTract_4b4d03e20242-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.245 (0) Saving backup history. Total backup size: 135.5 MB
+0015.248 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0015.253 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.254 (0) No remote despatch: user chose no remote backup service
+0015.255 (0) Recording as successfully uploaded: backup_2023-12-06-0725_RemoTract_4b4d03e20242-db.gz
+0015.258 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0015.259 (0) Resume backup (4b4d03e20242, 0): finish run
+0015.262 (0) Decremented the semaphore (fd) by 1
+0015.265 (0) Semaphore (fd) unlocked
+0015.267 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0015.271 (0) No email will/can be sent - the user has not configured an email address.
+0015.272 (0) The backup succeeded and is now complete
+0000.000 (1) Opened log file at time: Wed, 06 Dec 2023 07:37:02 +0000 on https://remotract.com
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 8.0.30 (litespeed, Linux vm-xbees 5.15.0-1047-oracle #53-Ubuntu SMP Wed Oct 18 09:56:06 UTC 2023 aarch64) MySQL: 10.6.12-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: ar Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 20000M (used: 34.4M | 38M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (1) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 441, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.004 (1) Free space on disk containing Updraft's temporary directory: 66057.4 MB
+0000.006 (1) Requesting backup semaphore lock (4b4d03e20242)
+0000.008 (1) [Debug] Lock option (updraft_lock_4b4d03e20242, wprt23_options) was created in the database
+0000.009 (1) [Info] Lock (updraft_lock_4b4d03e20242, wprt23_options) acquired after initialising the database
+0000.010 (1) This backup task (4b4d03e20242) is either complete or began over 2 days ago: ending (1701848222.1952, ) (existing jobdata keys: )

@@ -1,0 +1,18 @@
+0000.007 (R) [notice] Looking for db archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-db.gz
+0000.007 (R) [notice] Archive is expected to be size: 1179.1 KB: OK
+0000.008 (R) [notice] Looking for plugins archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins.zip
+0000.008 (R) [notice] Archive is expected to be size: 25343.1 KB: OK
+0000.008 (R) [notice] Looking for plugins archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins2.zip
+0000.008 (R) [notice] Archive is expected to be size: 26340.5 KB: OK
+0000.008 (R) [notice] Looking for plugins archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-plugins3.zip
+0000.008 (R) [notice] Archive is expected to be size: 7336.3 KB: OK
+0000.009 (R) [notice] Looking for themes archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes2.zip
+0000.009 (R) [notice] Archive is expected to be size: 28842.4 KB: OK
+0000.009 (R) [notice] Looking for themes archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes3.zip
+0000.009 (R) [notice] Archive is expected to be size: 19600 KB: OK
+0000.009 (R) [notice] Looking for themes archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-themes.zip
+0000.009 (R) [notice] Archive is expected to be size: 18709 KB: OK
+0000.010 (R) [notice] Looking for uploads archive: file name: backup_2023-12-06-0725_RemoTract_4b4d03e20242-uploads.zip
+0000.010 (R) [notice] Archive is expected to be size: 9235.4 KB: OK
+0000.012 (R) [warning] Error: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /home/remotract.com/public_html/wp-content/updraft/uploads-old
+0000.014 (R) [notice] Restore failed...

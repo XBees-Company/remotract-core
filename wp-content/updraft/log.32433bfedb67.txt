@@ -1,0 +1,336 @@
+0000.001 (0) Opened log file at time: Wed, 06 Dec 2023 07:38:08 +0000 on https://remotract.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 8.0.30 (litespeed, Linux vm-xbees 5.15.0-1047-oracle #53-Ubuntu SMP Wed Oct 18 09:56:06 UTC 2023 aarch64) MySQL: 10.6.12-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: ar Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 20000M (used: 34.5M | 36M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 66396 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.012 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1701847532, seconds_ago=756)
+0000.014 (0) Semaphore (fd, wprt23_options) was stuck, set lock time to 2023-12-06 07:38:08
+0000.015 (0) Semaphore (fd, wprt23_options) reset to 1
+0000.017 (0) Set semaphore last lock (fd) time to 2023-12-06 07:38:08
+0000.018 (0) Semaphore lock (fd) complete
+0000.022 (0) Backup run: resumption=0, nonce=32433bfedb67, file_nonce=32433bfedb67 begun at=1701848288 (0s ago), job type=backup
+0000.025 (0) Scheduling a resumption (1) after 300 seconds (1701848588) in case this run gets aborted
+0000.044 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.045 (0) Checking if we have a zip executable available
+0000.046 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.048 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.049 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.051 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.052 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.053 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.055 (0) Creation of backups of directories: beginning
+0000.058 (0) No backup of plugins: excluded by user's options
+0000.059 (0) No backup of themes: excluded by user's options
+0000.060 (0) No backup of uploads: excluded by user's options
+0000.062 (0) No backup of mu-plugins: excluded by user's options
+0000.063 (0) No backup of others: excluded by user's options
+0000.067 (0) Saving backup status to database (elements: 0)
+0000.071 (0) Beginning creation of database dump (WordPress DB)
+0000.073 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.075 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.076 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.077 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.078 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.079 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.080 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/remotract.com/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.090 (0) Table wprt23_options: Total expected rows (via COUNT): 620
+0000.175 (0) Table wprt23_options: Rows added in this batch (next record: 40502): 615 (uncompressed bytes in this segment=4101427) in 0.09 seconds
+0000.181 (0) Table wprt23_options: finishing file(s) (2, 521.7 KB)
+0000.185 (0) Table wprt23_users: Total expected rows (via COUNT): 5
+0000.186 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.188 (0) Table wprt23_users: Rows added in this batch (next record: 29): 5 (uncompressed bytes in this segment=1863) in 0.00 seconds
+0000.191 (0) Table wprt23_users: finishing file(s) (2, 0.8 KB)
+0000.196 (0) Table wprt23_usermeta: Total expected rows (via COUNT): 168
+0000.197 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.200 (0) Table wprt23_usermeta: Rows added in this batch (next record: 761): 168 (uncompressed bytes in this segment=12723) in 0.01 seconds
+0000.206 (0) Table wprt23_usermeta: finishing file(s) (2, 3.8 KB)
+0000.211 (0) Table wprt23_actionscheduler_actions: Total expected rows (via COUNT): 18
+0000.212 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.215 (0) Table wprt23_actionscheduler_actions: Rows added in this batch (next record: 63): 18 (uncompressed bytes in this segment=9868) in 0.01 seconds
+0000.221 (0) Table wprt23_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0000.224 (0) Table wprt23_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.227 (0) Table wprt23_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.00 seconds
+0000.231 (0) Table wprt23_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.235 (0) Table wprt23_actionscheduler_groups: Total expected rows (via COUNT): 3
+0000.236 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.239 (0) Table wprt23_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=737) in 0.01 seconds
+0000.244 (0) Table wprt23_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.247 (0) Table wprt23_actionscheduler_logs: Total expected rows (via COUNT): 52
+0000.249 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.252 (0) Table wprt23_actionscheduler_logs: Rows added in this batch (next record: 166): 52 (uncompressed bytes in this segment=6254) in 0.01 seconds
+0000.257 (0) Table wprt23_actionscheduler_logs: finishing file(s) (2, 1.2 KB)
+0000.262 (0) Table wprt23_commentmeta: Total expected rows (via COUNT): 0
+0000.265 (0) Table wprt23_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0000.270 (0) Table wprt23_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.273 (0) Table wprt23_comments: Total expected rows (via COUNT): 1
+0000.274 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.276 (0) Table wprt23_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1960) in 0.00 seconds
+0000.280 (0) Table wprt23_comments: finishing file(s) (2, 0.8 KB)
+0000.283 (0) Table wprt23_links: Total expected rows (via COUNT): 0
+0000.286 (0) Table wprt23_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.00 seconds
+0000.290 (0) Table wprt23_links: finishing file(s) (2, 0.5 KB)
+0000.295 (0) Table wprt23_postmeta: Total expected rows (approximate): 1159
+0000.431 (0) Table wprt23_postmeta: Rows added in this batch (next record: 1749): 1224 (uncompressed bytes in this segment=5820755) in 0.14 seconds
+0000.437 (0) Table wprt23_postmeta: finishing file(s) (2, 566.9 KB)
+0000.442 (0) Table wprt23_posts: Total expected rows (via COUNT): 193
+0000.443 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.464 (0) Table wprt23_posts: Rows added in this batch (next record: 5043): 193 (uncompressed bytes in this segment=1460884) in 0.02 seconds
+0000.469 (0) Table wprt23_posts: finishing file(s) (2, 52.4 KB)
+0000.472 (0) Table wprt23_term_relationships: Total expected rows (approximate): 9
+0000.474 (0) Table wprt23_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=850) in 0.00 seconds
+0000.478 (0) Table wprt23_term_relationships: finishing file(s) (2, 0.4 KB)
+0000.482 (0) Table wprt23_term_taxonomy: Total expected rows (via COUNT): 23
+0000.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.485 (0) Table wprt23_term_taxonomy: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1779) in 0.00 seconds
+0000.489 (0) Table wprt23_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0000.493 (0) Table wprt23_termmeta: Total expected rows (via COUNT): 5
+0000.494 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.496 (0) Table wprt23_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1186) in 0.00 seconds
+0000.500 (0) Table wprt23_termmeta: finishing file(s) (2, 0.5 KB)
+0000.502 (0) Table wprt23_terms: Total expected rows (via COUNT): 23
+0000.503 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.505 (0) Table wprt23_terms: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1632) in 0.00 seconds
+0000.508 (0) Table wprt23_terms: finishing file(s) (2, 0.7 KB)
+0000.511 (0) Table wprt23_wc_category_lookup: Total expected rows (approximate): 0
+0000.513 (0) Table wprt23_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=617) in 0.00 seconds
+0000.516 (0) Table wprt23_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0000.519 (0) Table wprt23_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0000.520 (0) Table wprt23_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1249) in 0.00 seconds
+0000.523 (0) Table wprt23_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0000.526 (0) Table wprt23_wc_reserved_stock: Total expected rows (approximate): 0
+0000.527 (0) Table wprt23_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0000.531 (0) Table wprt23_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0000.534 (0) Table wprt23_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0000.535 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.537 (0) Table wprt23_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=778) in 0.00 seconds
+0000.541 (0) Table wprt23_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0000.544 (0) Table wprt23_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0000.546 (0) Table wprt23_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=746) in 0.00 seconds
+0000.550 (0) Table wprt23_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0000.555 (0) Table wprt23_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0000.556 (0) Table wprt23_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0000.560 (0) Table wprt23_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0000.563 (0) Table wprt23_e_events: Total expected rows (via COUNT): 0
+0000.565 (0) Table wprt23_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.00 seconds
+0000.568 (0) Table wprt23_e_events: finishing file(s) (2, 0.4 KB)
+0000.572 (0) Table wprt23_private_chat: Total expected rows (via COUNT): 0
+0000.573 (0) Table wprt23_private_chat: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0000.576 (0) Table wprt23_private_chat: finishing file(s) (2, 0.4 KB)
+0000.580 (0) Table wprt23_wc_admin_note_actions: Total expected rows (via COUNT): 107
+0000.581 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.584 (0) Table wprt23_wc_admin_note_actions: Rows added in this batch (next record: 6767): 107 (uncompressed bytes in this segment=20247) in 0.01 seconds
+0000.589 (0) Table wprt23_wc_admin_note_actions: finishing file(s) (2, 3.3 KB)
+0000.592 (0) Table wprt23_wc_admin_notes: Total expected rows (via COUNT): 74
+0000.593 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.597 (0) Table wprt23_wc_admin_notes: Rows added in this batch (next record: 74): 74 (uncompressed bytes in this segment=36928) in 0.01 seconds
+0000.601 (0) Table wprt23_wc_admin_notes: finishing file(s) (2, 8 KB)
+0000.604 (0) Table wprt23_wc_customer_lookup: Total expected rows (via COUNT): 0
+0000.606 (0) Table wprt23_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1042) in 0.00 seconds
+0000.610 (0) Table wprt23_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0000.613 (0) Table wprt23_wc_download_log: Total expected rows (via COUNT): 0
+0000.614 (0) Table wprt23_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.00 seconds
+0000.617 (0) Table wprt23_wc_download_log: finishing file(s) (2, 0.4 KB)
+0000.620 (0) Table wprt23_wc_order_addresses: Total expected rows (via COUNT): 0
+0000.622 (0) Table wprt23_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1082) in 0.00 seconds
+0000.625 (0) Table wprt23_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0000.628 (0) Table wprt23_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0000.629 (0) Table wprt23_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0000.632 (0) Table wprt23_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0000.635 (0) Table wprt23_wc_order_operational_data: Total expected rows (via COUNT): 0
+0000.637 (0) Table wprt23_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1423) in 0.00 seconds
+0000.640 (0) Table wprt23_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0000.643 (0) Table wprt23_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0000.644 (0) Table wprt23_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1239) in 0.00 seconds
+0000.648 (0) Table wprt23_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0000.651 (0) Table wprt23_wc_order_stats: Total expected rows (via COUNT): 0
+0000.652 (0) Table wprt23_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1216) in 0.00 seconds
+0000.655 (0) Table wprt23_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0000.658 (0) Table wprt23_wc_order_tax_lookup: Total expected rows (approximate): 0
+0000.659 (0) Table wprt23_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=817) in 0.00 seconds
+0000.662 (0) Table wprt23_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0000.665 (0) Table wprt23_wc_orders: Total expected rows (via COUNT): 0
+0000.667 (0) Table wprt23_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1441) in 0.00 seconds
+0000.670 (0) Table wprt23_wc_orders: finishing file(s) (2, 0.6 KB)
+0000.673 (0) Table wprt23_wc_orders_meta: Total expected rows (via COUNT): 0
+0000.675 (0) Table wprt23_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.00 seconds
+0000.678 (0) Table wprt23_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0000.681 (0) Table wprt23_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0000.683 (0) Table wprt23_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=855) in 0.00 seconds
+0000.686 (0) Table wprt23_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0000.689 (0) Table wprt23_wc_product_download_directories: Total expected rows (via COUNT): 2
+0000.690 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.692 (0) Table wprt23_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=922) in 0.00 seconds
+0000.695 (0) Table wprt23_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0000.698 (0) Table wprt23_wc_rate_limits: Total expected rows (via COUNT): 0
+0000.700 (0) Table wprt23_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.00 seconds
+0000.703 (0) Table wprt23_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0000.706 (0) Table wprt23_wc_webhooks: Total expected rows (via COUNT): 0
+0000.707 (0) Table wprt23_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1095) in 0.00 seconds
+0000.710 (0) Table wprt23_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0000.714 (0) Table wprt23_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0000.715 (0) Table wprt23_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=897) in 0.00 seconds
+0000.719 (0) Table wprt23_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0000.722 (0) Table wprt23_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0000.723 (0) Table wprt23_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=859) in 0.00 seconds
+0000.726 (0) Table wprt23_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0000.729 (0) Table wprt23_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0000.731 (0) Table wprt23_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.00 seconds
+0000.734 (0) Table wprt23_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0000.739 (0) Table wprt23_woocommerce_log: Total expected rows (via COUNT): 0
+0000.740 (0) Table wprt23_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.00 seconds
+0000.745 (0) Table wprt23_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0000.748 (0) Table wprt23_woocommerce_order_items: Total expected rows (via COUNT): 0
+0000.749 (0) Table wprt23_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0000.753 (0) Table wprt23_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0000.756 (0) Table wprt23_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0000.757 (0) Table wprt23_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.00 seconds
+0000.760 (0) Table wprt23_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0000.764 (0) Table wprt23_woocommerce_sessions: Total expected rows (via COUNT): 3
+0000.765 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.767 (0) Table wprt23_woocommerce_sessions: Rows added in this batch (next record: 48): 3 (uncompressed bytes in this segment=5000) in 0.00 seconds
+0000.771 (0) Table wprt23_woocommerce_sessions: finishing file(s) (2, 1 KB)
+0000.775 (0) Table wprt23_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0000.777 (0) Table wprt23_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.00 seconds
+0000.780 (0) Table wprt23_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0000.783 (0) Table wprt23_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0000.784 (0) Table wprt23_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=766) in 0.00 seconds
+0000.787 (0) Table wprt23_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0000.790 (0) Table wprt23_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0000.791 (0) Table wprt23_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0000.794 (0) Table wprt23_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0000.797 (0) Table wprt23_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0000.798 (0) Table wprt23_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.00 seconds
+0000.802 (0) Table wprt23_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0000.805 (0) Table wprt23_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0000.806 (0) Table wprt23_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1166) in 0.00 seconds
+0000.810 (0) Table wprt23_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0000.814 (0) Table wprt23_wt_earnings: Total expected rows (via COUNT): 0
+0000.816 (0) Table wprt23_wt_earnings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.00 seconds
+0000.821 (0) Table wprt23_wt_earnings: finishing file(s) (2, 0.5 KB)
+0000.824 (0) Table wprt23_wt_payouts_history: Total expected rows (via COUNT): 0
+0000.825 (0) Table wprt23_wt_payouts_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.00 seconds
+0000.829 (0) Table wprt23_wt_payouts_history: finishing file(s) (2, 0.5 KB)
+0000.830 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/remotract.com/public_html/wp-content/updraft/backup_2023-12-06-0738_RemoTract_32433bfedb67-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0000.831 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_options.table.tmpr40503.gz (1/54/fopen): adding to final database dump
+0000.836 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_options.table.gz (2/54/fopen): adding to final database dump
+0000.837 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_users.table.tmpr30.gz (3/54/fopen): adding to final database dump
+0000.838 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_users.table.gz (4/54/fopen): adding to final database dump
+0000.839 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_usermeta.table.tmpr762.gz (5/54/fopen): adding to final database dump
+0000.840 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_usermeta.table.gz (6/54/fopen): adding to final database dump
+0000.841 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_actions.table.tmpr64.gz (7/54/fopen): adding to final database dump
+0000.842 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_actions.table.gz (8/54/fopen): adding to final database dump
+0000.843 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_claims.table.tmpr0.gz (9/54/fopen): adding to final database dump
+0000.844 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_claims.table.gz (10/54/fopen): adding to final database dump
+0000.845 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_groups.table.tmpr4.gz (11/54/fopen): adding to final database dump
+0000.846 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_groups.table.gz (12/54/fopen): adding to final database dump
+0000.847 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_logs.table.tmpr167.gz (13/54/fopen): adding to final database dump
+0000.848 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_actionscheduler_logs.table.gz (14/54/fopen): adding to final database dump
+0000.849 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_commentmeta.table.tmpr0.gz (15/54/fopen): adding to final database dump
+0000.850 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_commentmeta.table.gz (16/54/fopen): adding to final database dump
+0000.851 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_comments.table.tmpr2.gz (17/54/fopen): adding to final database dump
+0000.852 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_comments.table.gz (18/54/fopen): adding to final database dump
+0000.853 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_links.table.tmpr0.gz (19/54/fopen): adding to final database dump
+0000.854 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_links.table.gz (20/54/fopen): adding to final database dump
+0000.855 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_postmeta.table.tmpr1750.gz (21/54/fopen): adding to final database dump
+0000.860 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_postmeta.table.gz (22/54/fopen): adding to final database dump
+0000.861 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_posts.table.tmpr5044.gz (23/54/fopen): adding to final database dump
+0000.863 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_posts.table.gz (24/54/fopen): adding to final database dump
+0000.863 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_term_relationships.table.tmpr100001.gz (25/54/fopen): adding to final database dump
+0000.865 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_term_relationships.table.gz (26/54/fopen): adding to final database dump
+0000.866 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_term_taxonomy.table.tmpr24.gz (27/54/fopen): adding to final database dump
+0000.866 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_term_taxonomy.table.gz (28/54/fopen): adding to final database dump
+0000.867 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_termmeta.table.tmpr6.gz (29/54/fopen): adding to final database dump
+0000.868 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_termmeta.table.gz (30/54/fopen): adding to final database dump
+0000.869 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_terms.table.tmpr24.gz (31/54/fopen): adding to final database dump
+0000.871 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_terms.table.gz (32/54/fopen): adding to final database dump
+0000.872 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_category_lookup.table.tmpr1001.gz (33/54/fopen): adding to final database dump
+0000.873 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_category_lookup.table.gz (34/54/fopen): adding to final database dump
+0000.874 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_product_meta_lookup.table.tmpr0.gz (35/54/fopen): adding to final database dump
+0000.875 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_product_meta_lookup.table.gz (36/54/fopen): adding to final database dump
+0000.876 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_reserved_stock.table.tmpr1.gz (37/54/fopen): adding to final database dump
+0000.877 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_reserved_stock.table.gz (38/54/fopen): adding to final database dump
+0000.878 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_tax_rate_classes.table.tmpr3.gz (39/54/fopen): adding to final database dump
+0000.879 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_tax_rate_classes.table.gz (40/54/fopen): adding to final database dump
+0000.880 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_order_itemmeta.table.tmpr0.gz (41/54/fopen): adding to final database dump
+0000.881 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_order_itemmeta.table.gz (42/54/fopen): adding to final database dump
+0000.882 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/54/fopen): adding to final database dump
+0000.882 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_payment_tokenmeta.table.gz (44/54/fopen): adding to final database dump
+0000.883 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_e_events.table.tmpr0.gz (45/54/fopen): adding to final database dump
+0000.884 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_e_events.table.gz (46/54/fopen): adding to final database dump
+0000.885 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_private_chat.table.tmpr0.gz (47/54/fopen): adding to final database dump
+0000.886 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_private_chat.table.gz (48/54/fopen): adding to final database dump
+0000.887 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_admin_note_actions.table.tmpr6768.gz (49/54/fopen): adding to final database dump
+0000.888 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_admin_note_actions.table.gz (50/54/fopen): adding to final database dump
+0000.889 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_admin_notes.table.tmpr75.gz (51/54/fopen): adding to final database dump
+0000.890 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_admin_notes.table.gz (52/54/fopen): adding to final database dump
+0000.891 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_customer_lookup.table.tmpr0.gz (53/54/fopen): adding to final database dump
+0000.892 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_customer_lookup.table.gz (54/54/fopen): adding to final database dump
+0000.892 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_download_log.table.tmpr0.gz (55/54/fopen): adding to final database dump
+0000.893 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_download_log.table.gz (56/54/fopen): adding to final database dump
+0000.894 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_addresses.table.tmpr0.gz (57/54/fopen): adding to final database dump
+0000.895 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_addresses.table.gz (58/54/fopen): adding to final database dump
+0000.896 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_coupon_lookup.table.tmpr1.gz (59/54/fopen): adding to final database dump
+0000.897 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_coupon_lookup.table.gz (60/54/fopen): adding to final database dump
+0000.898 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_operational_data.table.tmpr0.gz (61/54/fopen): adding to final database dump
+0000.899 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_operational_data.table.gz (62/54/fopen): adding to final database dump
+0000.900 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_product_lookup.table.tmpr0.gz (63/54/fopen): adding to final database dump
+0000.901 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_product_lookup.table.gz (64/54/fopen): adding to final database dump
+0000.902 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_stats.table.tmpr0.gz (65/54/fopen): adding to final database dump
+0000.902 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_stats.table.gz (66/54/fopen): adding to final database dump
+0000.903 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_tax_lookup.table.tmpr1.gz (67/54/fopen): adding to final database dump
+0000.904 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_order_tax_lookup.table.gz (68/54/fopen): adding to final database dump
+0000.905 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_orders.table.tmpr0.gz (69/54/fopen): adding to final database dump
+0000.906 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_orders.table.gz (70/54/fopen): adding to final database dump
+0000.907 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_orders_meta.table.tmpr0.gz (71/54/fopen): adding to final database dump
+0000.908 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_orders_meta.table.gz (72/54/fopen): adding to final database dump
+0000.908 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_product_attributes_lookup.table.tmpr1.gz (73/54/fopen): adding to final database dump
+0000.909 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_product_attributes_lookup.table.gz (74/54/fopen): adding to final database dump
+0000.910 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_product_download_directories.table.tmpr3.gz (75/54/fopen): adding to final database dump
+0000.911 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_product_download_directories.table.gz (76/54/fopen): adding to final database dump
+0000.912 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_rate_limits.table.tmpr0.gz (77/54/fopen): adding to final database dump
+0000.913 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_rate_limits.table.gz (78/54/fopen): adding to final database dump
+0000.914 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_webhooks.table.tmpr0.gz (79/54/fopen): adding to final database dump
+0000.915 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wc_webhooks.table.gz (80/54/fopen): adding to final database dump
+0000.916 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_api_keys.table.tmpr0.gz (81/54/fopen): adding to final database dump
+0000.917 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_api_keys.table.gz (82/54/fopen): adding to final database dump
+0000.918 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_attribute_taxonomies.table.tmpr0.gz (83/54/fopen): adding to final database dump
+0000.919 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_attribute_taxonomies.table.gz (84/54/fopen): adding to final database dump
+0000.919 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_downloadable_product_permissions.table.tmpr0.gz (85/54/fopen): adding to final database dump
+0000.920 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_downloadable_product_permissions.table.gz (86/54/fopen): adding to final database dump
+0000.921 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_log.table.tmpr0.gz (87/54/fopen): adding to final database dump
+0000.922 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_log.table.gz (88/54/fopen): adding to final database dump
+0000.923 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_order_items.table.tmpr0.gz (89/54/fopen): adding to final database dump
+0000.924 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_order_items.table.gz (90/54/fopen): adding to final database dump
+0000.925 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_payment_tokens.table.tmpr0.gz (91/54/fopen): adding to final database dump
+0000.926 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_payment_tokens.table.gz (92/54/fopen): adding to final database dump
+0000.927 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_sessions.table.tmpr49.gz (93/54/fopen): adding to final database dump
+0000.928 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_sessions.table.gz (94/54/fopen): adding to final database dump
+0000.929 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_shipping_zone_locations.table.tmpr0.gz (95/54/fopen): adding to final database dump
+0000.930 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_shipping_zone_locations.table.gz (96/54/fopen): adding to final database dump
+0000.931 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_shipping_zone_methods.table.tmpr0.gz (97/54/fopen): adding to final database dump
+0000.932 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_shipping_zone_methods.table.gz (98/54/fopen): adding to final database dump
+0000.933 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_shipping_zones.table.tmpr0.gz (99/54/fopen): adding to final database dump
+0000.935 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_shipping_zones.table.gz (100/54/fopen): adding to final database dump
+0000.936 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_tax_rate_locations.table.tmpr0.gz (101/54/fopen): adding to final database dump
+0000.937 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_tax_rate_locations.table.gz (102/54/fopen): adding to final database dump
+0000.937 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_tax_rates.table.tmpr0.gz (103/54/fopen): adding to final database dump
+0000.939 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_woocommerce_tax_rates.table.gz (104/54/fopen): adding to final database dump
+0000.939 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wt_earnings.table.tmpr0.gz (105/54/fopen): adding to final database dump
+0000.940 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wt_earnings.table.gz (106/54/fopen): adding to final database dump
+0000.941 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wt_payouts_history.table.tmpr0.gz (107/54/fopen): adding to final database dump
+0000.942 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db-table-wprt23_wt_payouts_history.table.gz (108/54/fopen): adding to final database dump
+0000.945 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db.gz: finished writing out complete database file (1179.6 KB)
+0000.962 (0) Total database tables backed up: 54 (backup_2023-12-06-0738_RemoTract_32433bfedb67-db.gz, size: 1208057, sha1: 770cbfac68d37c034ca91249fb9b042b3106b3de, sha256: 849bea4e94ea0ed3aea63a9361d638b52a2b82ff2c469bcff84778612310995a)
+0000.968 (0) backup_2023-12-06-0738_RemoTract_32433bfedb67-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.969 (0) Saving backup history. Total backup size: 1.2 MB
+0000.972 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.975 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.976 (0) No remote despatch: user chose no remote backup service
+0000.976 (0) Recording as successfully uploaded: backup_2023-12-06-0738_RemoTract_32433bfedb67-db.gz
+0000.978 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0000.979 (0) Resume backup (32433bfedb67, 0): finish run
+0000.982 (0) Decremented the semaphore (fd) by 1
+0000.983 (0) Semaphore (fd) unlocked
+0000.984 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.987 (0) No email will/can be sent - the user has not configured an email address.
+0000.988 (0) The backup succeeded and is now complete

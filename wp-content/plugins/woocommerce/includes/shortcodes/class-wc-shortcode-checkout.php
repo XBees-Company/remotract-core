@@ -271,7 +271,7 @@ class WC_Shortcode_Checkout {
 		if ( $order_id > 0 ) {
 			$order = wc_get_order( $order_id );
 
-			if ( ! $order || ! hash_equals( $order->get_order_key(), $order_key ) ) {
+			if ( ( ! $order instanceof WC_Order ) || ! hash_equals( $order->get_order_key(), $order_key ) ) {
 				$order = false;
 			}
 		}
@@ -297,10 +297,19 @@ class WC_Shortcode_Checkout {
 			return;
 		}
 
-		$order_customer_id = $order->get_customer_id();
+		/**
+		 * Indicates if known (non-guest) shoppers need to be logged in before we let
+		 * them access the order received page.
+		 *
+		 * @param bool $verify_known_shoppers If verification is required.
+		 *
+		 * @since 8.4.0
+		 */
+		$verify_known_shoppers = apply_filters( 'woocommerce_order_received_verify_known_shoppers', true );
+		$order_customer_id     = $order->get_customer_id();
 
 		// For non-guest orders, require the user to be logged in before showing this page.
-		if ( $order_customer_id && get_current_user_id() !== $order_customer_id ) {
+		if ( $verify_known_shoppers && $order_customer_id && get_current_user_id() !== $order_customer_id ) {
 			wc_get_template( 'checkout/order-received.php', array( 'order' => false ) );
 			wc_print_notice( esc_html__( 'Please log in to your account to view this order.', 'woocommerce' ), 'notice' );
 			woocommerce_login_form( array( 'redirect' => $order->get_checkout_order_received_url() ) );
@@ -387,12 +396,6 @@ class WC_Shortcode_Checkout {
 			return false;
 		}
 
-		$email = filter_input( INPUT_POST, 'email' );
-		$nonce = filter_input( INPUT_POST, 'check_submission' );
-		if ( $email && ! wp_verify_nonce( $nonce, 'wc_verify_email' ) ) {
-			return true;
-		}
-
 		/**
 		 * Controls the grace period within which we do not require any sort of email verification step before rendering
 		 * the 'order received' or 'order pay' pages.
@@ -426,11 +429,12 @@ class WC_Shortcode_Checkout {
 			$session_email = is_array( $customer ) && isset( $customer['email'] ) ? $customer['email'] : '';
 		}
 
-		$session_email_match  = $session_email === $order->get_billing_email();
-		$supplied_email_match = isset( $_POST['email'] ) && sanitize_email( wp_unslash( $_POST['email'] ) ?? '' ) === $order->get_billing_email();
+		// Email verification is required if the user cannot be identified, or if they supplied an email address but the nonce check failed.
 		$can_view_orders      = current_user_can( 'read_private_shop_orders' );
+		$session_email_match  = $session_email === $order->get_billing_email();
+		$supplied_email_match = sanitize_email( wp_unslash( filter_input( INPUT_POST, 'email' ) ) ) === $order->get_billing_email()
+			&& wp_verify_nonce( filter_input( INPUT_POST, 'check_submission' ), 'wc_verify_email' );
 
-		// If we cannot match the order with the current user, the user should verify their email address.
 		$email_verification_required = ! $session_email_match && ! $supplied_email_match && ! $can_view_orders;
 
 		/**

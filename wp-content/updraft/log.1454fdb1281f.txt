@@ -1,0 +1,24 @@
+0000.003 () Opened log file at time: Wed, 04 Oct 2023 22:37:16 +0000 on https://remotract.com
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.0.30 (litespeed, Linux vm-xbees 5.15.0-1044-oracle #50-Ubuntu SMP Wed Sep 13 09:37:14 UTC 2023 aarch64) MySQL: 10.6.12-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: ar Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 20000M (used: 19.2M | 24M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 91213.8 MB
+0000.007 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Wed, 04 Oct 2023 22:37:18 +0000 on https://remotract.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.0.30 (litespeed, Linux vm-xbees 5.15.0-1044-oracle #50-Ubuntu SMP Wed Sep 13 09:37:14 UTC 2023 aarch64) MySQL: 10.6.12-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: ar Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 20000M (used: 17.4M | 22M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 91213.8 MB
+0000.003 () Ensuring WP_Filesystem is setup for a restore
+0000.004 () WP_Filesystem is setup and ready for a restore
+0000.006 () Restore job started. Entities to restore: uploads. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.007 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.009 () Entity: uploads
+0000.009 () restore_backup(backup_file=backup_2023-10-04-2233_remotrack2023_c1280a433dd7-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:50:"/home/remotract.com/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=1)
+0000.009 () Unpacking backup... (backup_2023-10-04-2233_remotrack2023_c1280a433dd7-uploads.zip, 3.3 MB)
+0000.012 () Unzipping backup_2023-10-04-2233_remotrack2023_c1280a433dd7-uploads.zip to /home/remotract.com/public_html/wp-content/upgrade/4cf89a2e/ using UpdraftPlus_ZipArchive, starting index 0
+0000.053 () Unzip progress: 215 out of 215 files (3.3 MB, uploads/wpcf7_uploads/.htaccess)
+0000.054 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.054 () Moving old data: can potentially use wp_filesystem method / -old
+0000.054 () Moving old data out of the way...
+0000.067 () Moving unpacked backup into place...
+0000.134 () Cleaning up rubbish...
+0000.139 () Elementor's clear cache method exists and will be executed
+0000.145 () Restore successful!
+0000.145 () Restore successful

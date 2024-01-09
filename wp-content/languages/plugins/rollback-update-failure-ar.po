@@ -1,0 +1,20 @@
+# Translation of Plugins - Rollback Update Failure - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Rollback Update Failure - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-21 21:04:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Rollback Update Failure - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "Rollback Update Failure"
+msgstr "إضافة Rollback Update Failure"
+
+#. Description of the plugin
+msgid "Feature plugin to test plugin/theme update failures and rollback to previous installed packages."
+msgstr "إضافة برمجية مميزة لاختبار فشل تحديث الإضافة / القالب والعودة إلى الحزمة المثبتة السابقة."

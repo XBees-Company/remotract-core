@@ -1,12 +1,23 @@
 # Folders
-
-/wp-content/themes/remotract
+wp-content/themes/remotract
+cgi-bin
+.well-known
+.wp-cli
 
 # Configuration
-/wp-config.php
+wp-config.php
 
 # Log files
 *.log
+
+#google
+google*.html
+
+#pinterest-e4735.html
+pinterest-*.html
+
+#phpini
+php.ini
 
 # htaccess
 /.htaccess
@@ -14,6 +25,11 @@
 
 #sftp
 .vscode/sftp.json
+
+
+#wpress files
+/wp-content/ai1wm-backups/*.wpress
+*.wpress
 
 # images files
 /wp-content/uploads/**/*.jpg
@@ -62,3 +78,64 @@
 /wp-content/uploads**/*.3g2 
 /wp-content/uploads**/*.3GPP
 /wp-content/uploads**/*.3GPP2
+
+# Ignore development-related files
+*.log
+*.sql
+*.sqlite
+
+# Ignore node_modules directory if you're using npm for development
+node_modules/
+
+# Ignore configuration files
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Ignore environment files
+.env
+.env.example
+
+# Ignore build and compiled files
+/build/
+/dist/
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore package-lock.json for npm projects
+package-lock.json
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+
+# Ignore database dumps
+*.sql
+*.sql.gz
+
+# Ignore logs and backups
+*.log
+*.bak
+*.backup
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore miscellaneous files
+Thumbs.db
+.DS_Store
+
+# Ignore text editor temporary files
+*~
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.zip
+*.tar

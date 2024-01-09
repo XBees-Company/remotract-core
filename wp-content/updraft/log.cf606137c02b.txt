@@ -1,0 +1,4 @@
+0000.003 () Opened log file at time: Wed, 04 Oct 2023 22:24:02 +0000 on https://remotract.com
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.0.30 (litespeed, Linux vm-xbees 5.15.0-1044-oracle #50-Ubuntu SMP Wed Sep 13 09:37:14 UTC 2023 aarch64) MySQL: 10.6.12-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: ar Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 20000M (used: 19.2M | 24M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 91216.2 MB
+0000.023 () Restore setup, now closing connection and starting restore over AJAX.
