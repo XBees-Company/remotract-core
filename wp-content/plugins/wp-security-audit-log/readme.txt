@@ -5,8 +5,8 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.html
 Tags:  activity log, security audit log, user tracking, security event log, audit trail, user activity, changelog, history, log, website changes
 Requires at least: 5.0
-Tested up to: 6.4.1
-Stable tag: 4.6.1
+Tested up to: 6.4.2
+Stable tag: 4.6.2
 Requires PHP: 7.2
 
 Keep a comprehensive log of user and system changes that take place on your WordPress website with the the #1 user-rated activity log plugin.
@@ -53,7 +53,7 @@ Below is a summary of the changes that the plugin can keep a record of:
 
 - **User profile changes** such as password, email, display name, and role changes
 
-- **User activity** such as login, logout, failed logins, and terminating other sessions.
+- **User activity** such as login, logout, failed logins, and terminating other sessions
 
 - **WordPress core and settings changes** such as installed updates, permalinks, default role, URL, and other site-wide changes
 
@@ -193,29 +193,31 @@ Please refer to our [support pages](https://melapress.com/support/?utm_source=wp
 == Screenshots ==
 
 1. The WordPress activity logs from where the site administrator can see all the user and site changes.
-2. See who is logged in to your WordPress and manage users sessions with Users Sessions Management in the Premium edition.
+2. See who is logged in to your WordPress and manage users sessions with Users Sessions Management.
 3. The plugin settings from where site administrator can configure generic plugin settings such as [reverse proxy support](https://melapress.com/support/kb/wp-activity-log-support-reverse-proxies-web-application-firewalls/?utm_source=wp+repo&utm_medium=repo+link&utm_campaign=wordpress_org&utm_content=wsal), who can manage the plugin etc.
-4. Use the Data Inspector to view more technical details about an event in the activity log, such as the session ID, User-Agent string and more.
+4. The WordPress audit trail settings from where you can configure automatic pruning of alerts, which timestamp should be used and more.
 5. Configuring WordPress email and SMS alerts with the Email & SMS Notifications module.
-6. Use the search filters in the WordPress activity log to fine tune the search results in the Premium edition.
+6. Search in the WordPress activity log with the use filters to fine tune the search results.
 7. The Enable/Disable events section from where Administrators can disable or enable activity log events.
 8. The Log Viewer of a Super Admin in a WordPress multisite network installation with the Site selection drop down menu.
 9. WP Activity Log is integrated with the built-in revision system of WordPress, thus allowing you to see what content changes users make on your WordPress posts, pages and custom post types. For more information read [Keep Record of All WordPress Content Changes](https://melapress.com/support/kb/wp-activity-log-how-keep-record-of-content-changes/?utm_source=wp+repo&utm_medium=repo+link&utm_campaign=wordpress_org&utm_content=wsal)
 10. Mirror the WordPress activity log to an external solution such as Syslog or Papertrail to centralize logging, ensure logs are always available and cannot be tampered with in the unfortunate case of a hack attack.
-11. Use the "Exclude Objects" section to exclude specific objects from the activity log, such as users, user roles, IP addresses, post types and other objects.
 
 == Changelog ==
 
-= 4.6.1 (2023-02-11) =
+ 4.6.2 (2024-01-09) =
 
 * **Plugin & features improvements**
-	* Migrated more of the plugin's code to WordPress coding standard.
-	* Cleaned the code from a number of redundant and wrong logic.
-	* Improved text on certain buttons & other UI sections.
-	* Removed all code previously used by the obsolete extensions.
-	
-* **Bug fixes**
-	* Fixed error / crash encountered when using the Grid View and upgrading to 4.6.X.
-	* Fixed: Events cannot be deactivated from the Enable/Disable page in the plugin.
+	* Fixed a number of broken links in the UI and Enable/Disable events section.
 
-Refer to the [complete plugin changelog](https://wpactivitylog.com/support/kb/plugin-changelog/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=WSAL&utm_content=plugin+repos+description) for more detailed information about what was new, improved and fixed in previous versions of the WP Activity Log plugin.
+* **Security issue**
+	* Fixed an XSS in the activity log viewer identified by NamGyu Kang. 
+
+* **Bug fixes**
+	* Extension update notice introduced in 4.6.0 cannot be dismissed in certain situations.
+	* Fixed: Fatal error in WP_Content_sensor triggered in some edge cases.
+	* Fixed: Error in MirrorLogger.php triggered by a bad / broken migration of activity log events.
+	* Fixed: Fatal error on multisite network when upgrading from 4.5.2 to >4.6.0.
+	* Addressed a Composer error triggered when installing Premium over Free edition of the plugin in certain versions.
+
+Refer to the complete [plugin changelog](https://melapress.com/support/kb/wp-activity-log-plugin-changelog/?utm_source=wp+repo&utm_medium=repo+link&utm_campaign=wordpress_org&utm_content=wsal) for more detailed information about what was new, improved and fixed in previous version updates of WP Activity Log.

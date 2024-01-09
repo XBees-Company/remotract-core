@@ -4,6 +4,8 @@ cgi-bin
 .well-known
 .wp-cli
 
+/wp-content/country-access/*.text
+
 # Configuration
 wp-config.php
 
@@ -42,6 +44,8 @@ php.ini
 /wp-content/uploads/**/*.heic
 /wp-content/uploads/**/*.heif
 
+# css in upload
+/wp-content/uploads/**/*.css
 
 # doc files
 /wp-content/uploads**/*.txt
