@@ -46,7 +46,7 @@ php.ini
 
 # css in upload
 /wp-content/uploads/**/*.css
-
+/wp-content/uploads/elementor/*/*.css
 # doc files
 /wp-content/uploads**/*.txt
 /wp-content/uploads**/*.docx 
